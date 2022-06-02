@@ -5,7 +5,7 @@ import Card from '../Components/Card'
 
 const Projects = () => {
   return (
-    <div className='container'>
+    <div className='container-projects'>
         <div className='header'>
             <div id='head'>
                 <h1 id='project-heading'>Projects, Blogs</h1>
@@ -19,8 +19,14 @@ const Projects = () => {
         <div id='card-holder'>
             <Card 
                 title={"Project"}
-                content={"Occaecat culpa cupidatat Lorem et labore occaecat incididunt."}
-                topic={"Nodejs Express "}
+                content={"Occaecat culpa cupidatat Lorem et labore occaecat incididunt. Occaecat culpa cupidatat Lorem et labore occaecat incididunt. Occaecat culpa cupidatat Lorem et labore occaecat incididunt."}
+                topic={"Nodejs, Express "}
+                knowMore={"https://www.google.com"}
+            />
+            <Card 
+                title={"Blogs"}
+                content={"Occaecat culpa cupidatat Lorem et labore occaecat incididunt. Occaecat culpa cupidatat Lorem et labore occaecat incididunt. Occaecat culpa cupidatat Lorem et labore occaecat incididunt."}
+                topic={"Hackathons, Sleepovers, New tech "}
                 knowMore={"https://www.google.com"}
             />
         </div>

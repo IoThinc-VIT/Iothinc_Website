@@ -1,4 +1,4 @@
-.container{
+.container-projects{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,5 +61,8 @@
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .25s;
 }
 
-/* Card Styling */
+#card-holder{
+    display: flex;
+    
+}
 

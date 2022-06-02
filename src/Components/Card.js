@@ -1,12 +1,17 @@
 import React from 'react'
+import "./Card.css"
 
-const Card = ({heading, content, topic, knowMore}) => {
+const Card = ({title, content, topic, knowMore}) => {
   return (
-    <div>
-        <h1>{heading}</h1><br />
-        <p>{content}</p><br />
-        <p>{topic}</p><br />
-        <a href={knowMore}>Know More</a><br />
+    <div className='card'>
+        <div>
+            <h1 id='card-head'>{title}</h1>
+        </div>
+        <div>
+            <p id='card-content'> {content}</p>
+            <p id='card-topic'><span style={{fontWeight:"bold"}}>Topic: </span>{topic}</p>
+            <a id='card-url' href={knowMore} rel="noreferrer" target="_blank">Know More &gt; </a>
+        </div>
     </div>
   )
 }
