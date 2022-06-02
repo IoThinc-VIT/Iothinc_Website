@@ -4,7 +4,7 @@ import "./About.css"
 
 const About = () => {
     return (
-    <div className="App">
+    <div className="mask-outer">
         <div className='container' style={{ height:"100vh"}}>
             <div className='left'>
                 <h1 style={{color:"white"}} id="about-head" className=" font">About</h1>

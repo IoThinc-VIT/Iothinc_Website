@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    /* background-color: red; */
+    display: flex;
+    padding: 2rem;
+    align-items: flex-start;
+    width: 90%;
+    justify-content: space-between;
+}
+
+#project-heading{
+    font-size: 40px;
+    color: white;
+    padding: none;
+}
+
+#content{
+    color:white;
+}
+
+#search-input{
+    padding: .75rem 1rem;
+    width: 55%;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+}
+
+#head{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#search-div{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    /* background-color: brown; */
+}
+
+#search-btn{
+    border-left: 1px solid black;
+    background-color: white;
+    height: auto;
+    width: 10%;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+#search-btn:hover{
+    background-color: black;
+    color: white;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .25s;
+}
+
+/* Card Styling */
+
