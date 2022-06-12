@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from "react";
-
+import EventCard from "../Components/EventCard";
+import logos_youtube from "./../Images/logos_youtube.png";
+import logos_google from "./../Images/logos_google.png";
+import logos_calendar from "./../Images/logos_calendar.png";
 const Event = () => {
   return (
     <div className="App">
-      <div className="pt-14  grid grid-row-2 md:grid-cols-2">
-        <div className="">
-          <p className="text-4xl text-white">Events</p>
-          <p className="ml-3 md:ml-44 p-2 text-xl text-white">
+      <div className="pt-5 grid grid-row-2 md:grid-cols-2 ">
+        <div className="md:ml-44">
+          <p className="text-centre md:text-left text-xl text-white">Events</p>
+          <p className="text-centre md:text-left text-lg text-white">
             Don't forget to register on Vtop
           </p>
         </div>
-        <div class="relative w-60 h-12 ml-40 ">
-          <div class="absolute  right-0 flex  p-3 pointer-events-none border-l-2 border-black">
+        <div class="relative w-56 h-10 mx-auto md:ml-44 ">
+          <div class="absolute right-0 flex  p-3 pointer-events-none border-l-2 border-black">
             <svg
               class="w-5 h-5 text-gray-500 dark:text-gray-400"
               fill="currentColor"
@@ -33,6 +36,44 @@ const Event = () => {
             placeholder="Search events..."
           />
         </div>
+      </div>
+      <div class="flex flex-col mt-2 md:flex-row  place-content-center ">
+        <EventCard
+          title="Event Tile"
+          subtitle="Event Live now"
+          des="This is a paragraph with more information about something important.
+          This something has many uses and is made of 100% recycled
+          material.This is a paragraph with more information about something
+          important. This something has many uses and is made of 100% recycled
+          material."
+          date="Date: 26-01-2022"
+          time="Time: 4pm"
+          logo={logos_youtube}
+        />
+        <EventCard
+          title="Event Tile"
+          subtitle="Event Live now"
+          des="This is a paragraph with more information about something important.
+          This something has many uses and is made of 100% recycled
+          material.This is a paragraph with more information about something
+          important. This something has many uses and is made of 100% recycled
+          material."
+          date="Date: 26-01-2022"
+          time="Time: 4pm"
+          logo={logos_google}
+        />
+        <EventCard
+          title="Event Tile"
+          subtitle="Event Live now"
+          des="This is a paragraph with more information about something important.
+          This something has many uses and is made of 100% recycled
+          material.This is a paragraph with more information about something
+          important. This something has many uses and is made of 100% recycled
+          material."
+          date="Date: 26-01-2022"
+          time="Time: 4pm"
+          logo={logos_calendar}
+        />
       </div>
     </div>
   );
