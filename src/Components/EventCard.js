@@ -5,7 +5,7 @@ const EventCard = (props) => {
   return (
     <div class="bg-[#FFF7EC] rounded-lg mx-16 my-1 p-3 w-4/5 md:w-1/2 lg:my-4 md:mx-2 lg:w-1/4 ">
       <div className="grid place-content-center">
-        <img src={event} alt="events" class="mb-2 w-44" />
+        <img src={event} alt="events" class="mb-2 w-56" />
       </div>
       <div className="text-left">
         <p className="font-bold">{props.title}</p>
