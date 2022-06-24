@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./Pages/Query.css";
 import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 
 import About from "./Pages/About";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
+      {/* <Queries/> */}
     </div>
   );
 }
