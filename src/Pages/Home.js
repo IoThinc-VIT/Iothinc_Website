@@ -3,7 +3,7 @@ import HomeImg from "./Home1.svg";
 
 const Home = () => {
   return (
-    <div className="bg-[#060622] text-white flex flex-col items-center p-[52px]">
+    <div className="text-white flex flex-col items-center p-[52px]">
       <img src={HomeImg} className="mb-[16px]" />
       <p className="mx-[44px] mb-[10px] text-[#FFF7EC] text-[36px] font-[700] font-['Satoshi'] leading-[40px]">
         “If you think that the internet has changed your life, think again.
