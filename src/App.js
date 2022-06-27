@@ -10,11 +10,18 @@ import Gallery from "./Pages/Gallery";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Queries from "./Pages/Queries";
-import NavBar from "./Components/NavBar"
+import NavBar from "./Components/Navbar";
+
+import background from "./Images/Background.svg";
 
 function App() {
   return (
-    <div className="app">
+    <div
+      className="app"
+      style={{
+        backgroundImage: background,
+      }}
+    >
       <NavBar />
       <BrowserRouter>
         <Routes>
@@ -22,7 +29,6 @@ function App() {
           <Route path="board" element={<Board />} />
           <Route path="event" element={<Events />} />
           <Route path="gallery" element={<Gallery />} />
-          <Route path="home" element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="queries" element={<Queries />} />
           <Route path="/" element={<Home />} />
