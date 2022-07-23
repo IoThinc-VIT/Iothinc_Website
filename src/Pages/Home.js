@@ -12,9 +12,7 @@ const Home = () => {
       <p className="mb-[32px] text-[#FFF7EC] text-[22px] font-[500] font-['Satoshi'] leading-[30px]">
         -Brendan O’Brien, Chief Architect & Co-Founder, Aria Systems
       </p>
-      <button className="px-[48px] py-[20px] text-[#000000] bg-[#FFF7EC] text-[30px] font-[700] font-['Satoshi'] leading-[41px] rounded-[10px]">
-        Supply Chain Using IoT
-      </button>
+      
     </div>
   );
 };

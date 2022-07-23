@@ -11,15 +11,7 @@ const About = () => {
             About
           </h1>
           <p id="about-content">
-            The Internet of Things is the next big thing in the industry. From
-            connecting basic devices in your house to heralding the dawn of the
-            Industry 4.0, IoT will be playing a major roles in the future. Here
-            at IoThinC, the Internet of Things Commmunity of VIT Vellore, we
-            discover the nitigrities of Internet of Things through exciting
-            discussions, events and interactions. Other than that we also
-            conduct IoT based competitions which allow you learn and apply your
-            acquired knowledge in real world problems. Join us now and connect
-            yourself!
+          We, the Internet of Things Community or IoThinc are a student-run technical club at Vellore Institute of Technology, Vellore. We strive to teach students to acquire new skills in the rapidly evolving technology. The club's mission is to expose students to challenges and advancements in the field of IoT and thus to nurture and develop skillsets in this arena. We aim to increase awareness of the opportunities presented by IoT as a growing concept to provide a social platform for IoT enthusiasts to network and connect with experts within the field and to encourage students for the same.
           </p>
         </div>
         <div className="right">

@@ -7,7 +7,6 @@ import { Element } from "react-scroll";
 import About from "./Pages/About";
 import Board from "./Pages/Board";
 import Events from "./Pages/Events";
-import Gallery from "./Pages/Gallery";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Queries from "./Pages/Queries";

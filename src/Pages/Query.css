@@ -45,11 +45,14 @@ body {
     border-radius: 30px;
     height: 65vh;
     width: 75vw;
-    background: radial-gradient(84.14% 86.03% at 14.85% 10.4%, rgba(18, 18, 131, 0.3) 1.34%, rgba(6, 6, 34, 0.3) 1.35%, rgba(6, 6, 34, 0.3) 100%)/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    /* border-radius: 50px; */
-  
-    
+    background: radial-gradient(84.14% 86.03% at 14.85% 10.4%, rgba(18, 18, 131, 0.3) 1.34%, rgba(6, 6, 34, 0.3) 1.35%, rgba(6, 6, 34, 0.3) 100%);
+    background: rgba(0, 180, 216, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
   }
+
   
   .formLeft{
     margin-top: 7vh;
@@ -111,6 +114,30 @@ body {
       bottom: 15px; 
       right: 15px; 
       
+    }
+    @media (max-width: 768px) {
+      .queriesForm{
+        width: 90vw;
+        height: 100%;
+        display: block;
+        margin: auto;
+        padding: auto;
+        justify-self: center;
+      }
+      .formLeft{
+        /* display: none; */
+        width: 100%;
+        justify-content: center;
+     }
+     .formRight{
+        width: 100%;
+        justify-content: center;
+        padding: auto;
+     }
+     .form-control{
+        width: 90%;
+        justify-self: center
+     }
     }
   
   @tailwind base;
