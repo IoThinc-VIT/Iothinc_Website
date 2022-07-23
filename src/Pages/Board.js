@@ -3,7 +3,7 @@ import React from "react";
 import TileComponent from "../Components/TileComponent";
 
 import FacultyCoordinator from "./../Images/faculty_coordinator.png";
-import Chairperson from "./../Images/chairperson.png";
+import Chairperson from "./../Images/chairperson.jpeg";
 import CoSecretary from "./../Images/co-secretary.png";
 import DesignHead from "./../Images/design-head.png";
 import FinanceHead from "./../Images/finance-head.png";
@@ -19,7 +19,9 @@ const Board = () => {
     <div className="App">
       <div className="bg-background-solid p-12 min-h-screen min-w-screen">
         <div className="flex flex-col justify-start items-start gap-6 font-satoshi">
-          <div className="text-6xl font-bold text-white text-center">Meet the board</div>
+          <div className="text-6xl font-bold text-white text-center">
+            Meet the board
+          </div>
           <div className="text-3xl text-white text-center">
             The people who bring life to this club
           </div>
