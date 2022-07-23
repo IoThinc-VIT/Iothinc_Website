@@ -24,7 +24,7 @@ const Board = () => {
             The people who bring life to this club
           </div>
         </div>
-        <div className="flex flex-col md:gap-24 p-12 font-jost">
+        <div className="flex flex-col md:gap-24 font-jost">
           <div className="md:flex justify-center items-center md:flex">
             <TileComponent
               img={FacultyCoordinator}
@@ -33,8 +33,8 @@ const Board = () => {
               svgFill="#8E8ED6"
               designation="Faculty Coordinator"
               name="Prof. Sujatha R"
-              insta="@sujathar"
-              linkedin="https://www.linkedin.com/in/sujathar/"
+              insta=""
+              linkedin=""
             />
             <TileComponent
               img={Chairperson}
@@ -121,8 +121,8 @@ const Board = () => {
               svgFill="#8EC4D6"
               designation="Management Head"
               name="Rohan P Surya"
-              insta=""
-              linkedin=""
+              insta="https://www.instagram.com/_.rogueone._/?hl=en"
+              linkedin="https://linkedin.com/in/rohan-pon-surya-murugan-823605209"
             />
           </div>
           <div className="md:flex justify-center items-center">
@@ -133,8 +133,8 @@ const Board = () => {
               svgFill="#D6A08E"
               designation="Project Head"
               name="Hari V"
-              insta=""
-              linkedin=""
+              insta="https://www.instagram.com/_hari_venkat/?hl=en"
+              linkedin="https://linkedin.com/in/hari-venkatesan-3198b91a3"
             />
 
             <TileComponent

@@ -21,6 +21,7 @@
 
 #content {
   color: white;
+  width: auto;
 }
 
 #search-input {
@@ -64,3 +65,25 @@
 #card-holder {
   display: flex;
 }
+@media (max-width: 768px) {
+  #card-holder {
+    flex-direction: column;
+  }
+  .header{
+    flex-direction: column;
+    width: 100%;
+  }
+  #head{
+    width: 100%;
+    text-align: center;
+  }
+  #search-div {
+    width: 100%;
+    align-content: flex-start;
+    
+  }
+  
+  
+}
+  
+
