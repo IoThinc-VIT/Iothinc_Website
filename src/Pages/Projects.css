@@ -9,12 +9,12 @@
   display: flex;
   padding: 2rem;
   align-items: flex-start;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
 }
 
 #project-heading {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: white;
   padding: none;
 }
@@ -22,6 +22,7 @@
 #content {
   color: white;
   width: auto;
+  font-size:1.2rem;
 }
 
 #search-input {
@@ -82,7 +83,9 @@
     align-content: flex-start;
     
   }
-  
+  #search-input {
+    width: 100%;
+  }
   
 }
   

@@ -10,7 +10,7 @@ const Card = ({title, content, topic, knowMore}) => {
         <div>
             <p id='card-content'> {content}</p>
             <p id='card-topic'><span style={{fontWeight:"bold"}}>Topic: </span>{topic}</p>
-            <a id='card-url' href={knowMore} rel="noreferrer" target="_blank">Know More &gt; </a>
+            <a id='card-url' className='mb-0' href={knowMore} rel="noreferrer" target="_blank">Know More &gt; </a>
         </div>
     </div>
   )

@@ -34,7 +34,7 @@ const Board = () => {
               designation="Faculty Coordinator"
               name="Prof. Sujatha R"
               insta=""
-              linkedin=""
+              linkedin="https://www.linkedin.com/in/sujatha-rajkumar-840914164"
             />
             <TileComponent
               img={Chairperson}

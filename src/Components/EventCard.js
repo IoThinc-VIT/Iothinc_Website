@@ -11,14 +11,14 @@ const EventCard = (props) => {
         <p className="font-bold">{props.title}</p>
         <p className="text-sm">{props.subtitle}</p>
         <hr className="w-5/6 mb-3 bg-black "></hr>
-        <p className="text-xs mb-2  ">{props.des}</p>
+        <p className="text-xs mb-2  ">{props.des.slice(0,200)}...</p>
         <div className="flex flex-row gap-20">
           <div>
             <p className="font-bold">{props.date}</p>
-            <p className="font-bold">{props.time}</p>
+            <p className="font-bold ">{props.time}</p>
           </div>
           <div>
-            <img src={props.logo} width={60} />
+            <img src={props.logo} width={40} />
           </div>
         </div>
       </div>

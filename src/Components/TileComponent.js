@@ -20,7 +20,8 @@ const TileComponent = (props) => {
 					{props.name}
 				</div>
 				<div className="flex flex-row gap-6 justify-center items-center">
-				<a href={props.insta} target="_blank">
+				{props.insta && (
+					<a href={props.insta} target="_blank">
 					<svg
 						width="30"
 						height="30"
@@ -34,6 +35,7 @@ const TileComponent = (props) => {
 						/>
 					</svg>
 					</a>
+				)}
 					<a href={props.linkedin} target="_blank">
 					<svg
 						width="30"
