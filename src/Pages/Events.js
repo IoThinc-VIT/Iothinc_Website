@@ -3,7 +3,7 @@ import EventCard from "../Components/EventCard";
 import logos_youtube from "./../Images/logos_youtube.png";
 const Event = () => {
   return (
-    <div className="App justify-center">
+    <div className="App ">
       <div className="justify-center pt-5 grid grid-row-2 md:grid-cols-2 ">
         <div className="md:ml-44">
           <p className="text-centre md:text-left text-5xl text-white">Events</p>

@@ -6,23 +6,17 @@ import Card from "../Components/Card";
 const Projects = () => {
   return (
     <div className="container-projects">
-      <div className="header">
+      <div className="header1">
         <div id="head">
           <h1 id="project-heading">Projects & Blogs</h1>
           <p id="content"> Know what we do as a club</p>
-        </div>
-        <div id="search-div">
-          <input id="search-input" type={"text"} placeholder="Search..." />
-          <button id="search-btn">
-            <AiOutlineSearch />
-          </button>
         </div>
       </div>
       <div id="card-holder">
         <Card
           title={"Supplychain QC"}
           content={
-            "supplychain simulation using iot and blockchain"
+            "Supplychain simulation using IOT and blockchain"
           }
           topic={"Node-Red,Solidity,Web3py,Fastapi"}
           knowMore={"https://github.com/IoThinc-VIT/SupplychainQCEvent"}
@@ -38,7 +32,7 @@ const Projects = () => {
         <Card
           title={"Blogs"}
           content={
-            "Occaecat culpa cupidatat Lorem et labore occaecat incididunt."
+            "Read our blogs and know about our club and its activities"
           }
           topic={"Hackathons, Sleepovers, New tech "}
           knowMore={"https://medium.com/iothincvit"}
