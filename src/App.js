@@ -34,9 +34,6 @@ function App() {
       <Element name="Events">
         <Events />
       </Element>
-      <Element name="Gallery">
-        <Gallery />
-      </Element>
       <Element name="Projects">
         <Projects />
       </Element>

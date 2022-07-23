@@ -7,7 +7,7 @@ const Query = () => {
     <div className="queries">
       <div className="queriesHeadLine">Query</div>
       <div className="queriesSubLine">
-        Ask your queries here, dont hold back!
+        Get in touch with our team, Shoot your queries!
       </div>
 
       <div className="queriesForm">

@@ -6,16 +6,10 @@ import Card from "../Components/Card";
 const Projects = () => {
   return (
     <div className="container-projects">
-      <div className="header">
+      <div className="header1">
         <div id="head">
           <h1 id="project-heading">Projects, Blogs</h1>
           <p id="content"> Know what we do as a club</p>
-        </div>
-        <div id="search-div">
-          <input id="search-input" type={"text"} placeholder="Search..." />
-          <button id="search-btn">
-            <AiOutlineSearch />
-          </button>
         </div>
       </div>
       <div id="card-holder">
