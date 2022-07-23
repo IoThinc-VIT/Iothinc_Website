@@ -2,7 +2,7 @@ import * as React from "react";
 
 const TileComponent = (props) => {
 	return (
-		<div>
+		<div className="mt-4 md:mx-4 mx-auto">
 			<div className={props.backgroundDef + " h-80 w-80 rounded-t-lg"}>
 				<div className="h-full w-full z-10">
 					<img
@@ -20,6 +20,7 @@ const TileComponent = (props) => {
 					{props.name}
 				</div>
 				<div className="flex flex-row gap-6 justify-center items-center">
+				<a href={props.insta} target="_blank">
 					<svg
 						width="30"
 						height="30"
@@ -32,6 +33,8 @@ const TileComponent = (props) => {
 							fill={props.svgFill}
 						/>
 					</svg>
+					</a>
+					<a href={props.linkedin} target="_blank">
 					<svg
 						width="30"
 						height="30"
@@ -46,6 +49,7 @@ const TileComponent = (props) => {
 							fill={props.svgFill}
 						/>
 					</svg>
+					</a>
 				</div>
 			</div>
 		</div>
