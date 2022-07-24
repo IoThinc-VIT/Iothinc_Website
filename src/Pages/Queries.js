@@ -33,7 +33,7 @@ const Query = () => {
 
       <div className="queriesForm">
         <div className="formLeft">
-          <img src={clipart} alt="" srcset="" />
+          <img src={clipart} alt="" srcSet="" />
         </div>
         <div className="formRight">
           <form ref={form}>

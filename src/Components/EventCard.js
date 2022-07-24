@@ -3,7 +3,7 @@ import event from "./../Images/event.png";
 import logos_youtube from "./../Images/logos_youtube.png";
 const EventCard = (props) => {
   return (
-    <div class="bg-[#FFF7EC] rounded-lg mx-16 my-1 p-3 w-4/5 md:w-1/2 lg:my-4 md:mx-2 lg:w-1/4 ">
+    <div className="bg-[#FFF7EC] rounded-lg mx-16 my-1 p-3 w-4/5 md:w-1/2 lg:my-4 md:mx-2 lg:w-1/4 ">
       <div className="grid place-content-center">
         <img src={props.image} alt="events" className="object-fill" />
       </div>
