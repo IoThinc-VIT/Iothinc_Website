@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import EventCard from "../Components/EventCard";
 import logos_youtube from "./../Images/logos_youtube.png";
+import watson from "././../Images/watson.jpeg";
+import IOTprotocol from "./../Images/IOT protocol.jpeg";
+import qualityweek from "./../Images/qualityweek.jpeg"
 const Event = () => {
   return (
     <div className="App ">
@@ -38,6 +41,7 @@ const Event = () => {
       <div class="flex flex-col mt-2 md:flex-row  place-content-center ">
         <EventCard
           title="Introduction to IoT Protocols and ThingSpeak."
+          image={IOTprotocol}
           subtitle=""
           des="Across the globe, billions of devices are today communicating and exchanging data with each other, thanks to the Internet of Things (IoT).
           IoT communication protocols protect and ensure security to the data being exchanged between these devices.
@@ -48,6 +52,7 @@ const Event = () => {
         />
         <EventCard
           title="Quality Control in Supply Chain using IoT and Blockchain"
+          image={qualityweek}
           subtitle=""
           des="Wait a second. Blockchain in supply chain? Yes, you read that right! Maintaining quality throughout the supply chain is essential for a successful business but did you know you can improve its security as well? We will be showing how something as simple as quality control can be elevated using emerging technologies like IoT and Blockchain.
           "
@@ -57,6 +62,7 @@ const Event = () => {
         />
         <EventCard
           title="Introduction to IBM Watson IoT Platform"
+          image={watson}
           subtitle=""
           des="This is a paragraph with more information about something important.
           This something has many uses and is made of 100% recycled
