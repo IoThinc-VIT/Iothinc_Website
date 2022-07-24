@@ -50,7 +50,7 @@ const Navbar = () => {
           <GiHamburgerMenu className="menu-btn" onClick={handleMenu} />
 
           <div className="flex justify-center items-center mr-[46%] cursor-pointer">
-            <Logo viewBox="0 0 126 " className="w-[113px] h-[54]" />
+          <Link to="Home"><Logo viewBox="0 0 80 60" className="w-[173px] h-[54]" /></Link>
           </div>
         </div>
         <div>content goes here</div>
