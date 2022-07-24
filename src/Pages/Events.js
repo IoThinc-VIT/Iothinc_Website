@@ -26,6 +26,7 @@ const Event = () => {
           date="Date: 05-07-2022"
           time=""
           logo={logos_youtube}
+          link=""
         />
         <EventCard
           title="Quality Control in Supply Chain using IoT and Blockchain"
@@ -36,6 +37,7 @@ const Event = () => {
           date="Date: 25-02-22"
           time=""
           logo={logos_youtube}
+          link="https://youtu.be/-JY6DthMW20"
         />
         <EventCard
           title="Introduction to IBM Watson IoT Platform"
@@ -49,6 +51,7 @@ const Event = () => {
           date="Date: 24-11-2021"
           time=""
           logo={logos_youtube}
+          link="https://youtu.be/Xa00p0VuofY"
         />
       </div>
     </div>

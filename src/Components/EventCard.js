@@ -17,9 +17,10 @@ const EventCard = (props) => {
             <p className="font-bold">{props.date}</p>
             <p className="font-bold ">{props.time}</p>
           </div>
+          {props.link && 
           <div>
-            <img src={props.logo} width={40} />
-          </div>
+            <a href={props.link} target="_blank"><img src={props.logo} width={40} /></a>
+          </div>}
         </div>
       </div>
     </div>
