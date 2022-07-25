@@ -3,7 +3,7 @@ import React from "react";
 import TileComponent from "../Components/TileComponent";
 
 import FacultyCoordinator from "./../Images/faculty_coordinator.png";
-import Chairperson from "./../Images/chairperson.jpeg";
+import Chairperson from "./../Images/chairperson.png";
 import CoSecretary from "./../Images/co-secretary.png";
 import DesignHead from "./../Images/design-head.png";
 import FinanceHead from "./../Images/finance-head.png";
@@ -36,7 +36,7 @@ const Board = () => {
               designation="Faculty Coordinator"
               name="Prof. Sujatha R"
               insta=""
-              linkedin=""
+              linkedin="https://www.linkedin.com/in/sujatha-rajkumar-840914164"
             />
             <TileComponent
               img={Chairperson}

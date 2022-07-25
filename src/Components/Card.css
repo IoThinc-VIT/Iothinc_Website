@@ -1,5 +1,6 @@
 .card{
     height: 100%;
+    min-height: 35vh;
     background-color: #FFF7EC;
     margin: 1rem;
     width: 100%;
@@ -30,6 +31,7 @@
     color:white;
     border-radius: 5px;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 #card-url:hover{
@@ -37,3 +39,10 @@
     color: black;
     transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .25s;
 }
+@media(max-width: 768px) {
+    .card{
+        min-height: 100%;
+        width: 100%;
+    }
+}
+    

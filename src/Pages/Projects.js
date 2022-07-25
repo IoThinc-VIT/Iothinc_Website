@@ -14,11 +14,11 @@ const Projects = () => {
       </div>
       <div id="card-holder">
         <Card
-          title={"Supplychain QC Event"}
+          title={"Supplychain QC"}
           content={
-            "supplychain simulation using iot and blockchain"
+            "Supplychain simulation using IOT and blockchain"
           }
-          topic={"node-red,Solidity,Web3py,Fastapi"}
+          topic={"Node-Red,Solidity,Web3py,Fastapi"}
           knowMore={"https://github.com/IoThinc-VIT/SupplychainQCEvent"}
         />
         <Card
@@ -26,13 +26,13 @@ const Projects = () => {
           content={
             "This repository contains code examples for getting started with Alexa Voice Service(AVS) with HTTP endpoint."
           }
-          topic={"Python, c++"}
+          topic={"Alexa Voice Service,IOT "}
           knowMore={"https://github.com/IoThinc-VIT/Alexa-Projects"}
         />
         <Card
           title={"Blogs"}
           content={
-            "Occaecat culpa cupidatat Lorem et labore occaecat incididunt. Occaecat culpa cupidatat Lorem et labore occaecat incididunt. Occaecat culpa cupidatat Lorem et labore occaecat incididunt."
+            "Read our blogs and know about our club and its activities"
           }
           topic={"Hackathons, Sleepovers, New tech "}
           knowMore={"https://medium.com/iothincvit"}

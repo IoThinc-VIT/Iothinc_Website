@@ -22,9 +22,9 @@ const TileComponent = (props) => {
           {props.name}
         </div>
         <div className="flex flex-row gap-6 justify-center items-center">
-          <a href={props.insta} target="_blank">
+         {props.insta &&  <a href={props.insta} target="_blank">
             <img src={Instagram} height="30" width="30"></img>
-          </a>
+          </a>}
           <a href={props.linkedin} target="_blank">
             <img src={Linkedin} height="30" width="30"></img>
           </a>
