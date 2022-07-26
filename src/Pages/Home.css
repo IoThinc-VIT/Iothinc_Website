@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 .App {
   background-color: #060622;
 
   background-repeat: no-repeat;
+}
+.quote{
+  margin-top: 1rem;
+  font-family: 'Teko', sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+.author{
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .quote{
+    font-size: 2rem;
+  }
+  
 }

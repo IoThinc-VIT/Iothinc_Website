@@ -14,7 +14,7 @@ const TileComponent = (props) => {
           />
         </div>
       </div>
-      <div className="bg-white font-jost flex flex-col justify-center items-center gap-4 p-6 w-80 h-auto rounded-b-lg">
+      <div className="bg-white font-lato flex flex-col justify-center items-center gap-4 p-6 w-80 h-auto rounded-b-lg">
         <div className="text-3xl text-black font-bold">{props.designation}</div>
         <div
           className={"font-bold tracking-wide text-2xl " + props.textColorDef}
