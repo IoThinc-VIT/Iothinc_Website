@@ -5,8 +5,8 @@ import Card from "../Components/Card";
 
 const Projects = () => {
   return (
-    <div className="container-projects">
-      <div className="header1">
+    <div className="container-projects mt-5">
+      <div className="header1 mb-2">
         <div id="head">
           <h1 id="project-heading">Projects & Blogs</h1>
           <p id="content"> Know what we do as a club</p>

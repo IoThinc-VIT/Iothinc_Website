@@ -22,11 +22,11 @@ const Board = () => {
           <div className="text-6xl font-bold text-white text-center">
             Meet the board
           </div>
-          <div className="text-3xl text-white text-center">
+          <div className="text-3xl text-white text-center mb-5">
             The people who bring life to this club
           </div>
         </div>
-        <div className="flex flex-col md:gap-24 font-jost">
+        <div className="flex flex-col md:gap-5 font-jost">
           <div className="md:flex justify-center items-center md:flex">
             <TileComponent
               img={FacultyCoordinator}

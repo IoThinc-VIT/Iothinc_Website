@@ -24,7 +24,7 @@ body {
   }
   
   .queriesHeadLine{
-    margin-top: 5vh;
+    margin-top: -1vh;
     margin-left: 12vw;
     font-weight: 500;
     font-size: 6vh;
@@ -69,7 +69,8 @@ body {
     flex-direction: column;
   }
   .form-control{
-    margin: 1vh;
+    margin: auto;
+    margin-bottom: 1vh;
     display: flex;
     flex-direction: row;
     align-items: center;

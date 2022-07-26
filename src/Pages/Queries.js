@@ -28,7 +28,7 @@ const Query = () => {
 
   return (
     <div className="queries">
-      <div className="queriesHeadLine">Query</div>
+      <div className="queriesHeadLine text-5xl">Query</div>
       <div className="queriesSubLine">Get in touch with our team!</div>
 
       <div className="queriesForm">

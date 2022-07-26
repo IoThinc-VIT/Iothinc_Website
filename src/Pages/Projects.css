@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
+  margin-top: 1.1rem;
+  width: 92vw;
 }
 
 .header1 {
   /* background-color: red; */
   display: flex;
-  padding: 2rem;
   align-items: flex-start;
   width: 100%;
   justify-content: space-between;
@@ -65,10 +67,13 @@
 
 #card-holder {
   display: flex;
+  margin: auto;
+  justify-content: space-between;
 }
 @media (max-width: 768px) {
   #card-holder {
     flex-direction: column;
+    margin-top: 1.5rem;
   }
   .header{
     flex-direction: column;
