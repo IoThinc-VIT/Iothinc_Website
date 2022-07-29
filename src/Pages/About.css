@@ -1,84 +1,80 @@
-.container{
-    display: flex;
-    margin: auto;
-    justify-content: center;
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
-.left{
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.right {
+  align-content: flex-end;
+}
+
+#about-content {
+  color: white;
+  margin-top: 5%;
+  font-size: 18px;
+}
+
+#about-img {
+  height: 27vw;
+  width: 27vw;
+  margin: auto;
+}
+#about-head {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 940px) {
+  .container {
     display: flex;
     flex-direction: column;
-    width: 60%;
-}
-.right{
-    align-content: flex-end;
-}
-
-
-#about-content{
-    color:white;
-    margin-top: 5%;
-    font-size: 18px;
-}
-
-#about-img{
-    height: 27vw;
-    width: 27vw;
-    margin:auto;
-}
-#about-head{
-    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  #about-content {
+    font-size: 14px;
+    margin-top: 7%;
+  }
+  #about-head {
+    font-size: 30px;
+  }
+  #about-img {
+    height: 35vw;
+    width: 35vw;
+  }
 }
 
-
-
-@media screen and (max-width:940px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    #about-content{
-        font-size: 14px;
-        margin-top: 7%;
-    }
-    #about-head{
-        font-size: 30px;
-    }
-    #about-img{
-        height: 35vw;
-        width: 35vw;
-    }
+@media screen and (max-width: 800px) {
+  #about-content {
+    font-size: 14px;
+    margin-top: 7%;
+  }
 }
 
-@media screen and (max-width:800px) {
-    #about-content{
-        font-size: 14px;
-        margin-top: 7%;
-    }
-}
-
-@media screen and (max-width:650px) {
-    #about-content{
-        font-size: 16px;
-        margin-top: 7%;
-        text-align: center;
-    }
-    #about-head{
-        font-size: 35px;
-    }
-    #about-img{
-        display: none;
-    }
-    .right{
-        width: 0%;
-        padding: 0;
-    }
-    .left{
-        width: 95%;
-    }
-    #about-head{
-        text-align: center;
-    }
+@media screen and (max-width: 650px) {
+  #about-content {
+    font-size: 16px;
+    margin-top: 7%;
+    text-align: center;
+  }
+  #about-head {
+    font-size: 35px;
+  }
+  #about-img {
+    display: none;
+  }
+  .right {
+    width: 0%;
+    padding: 0;
+  }
+  .left {
+    width: 95%;
+  }
+  #about-head {
+    text-align: center;
+  }
 }
