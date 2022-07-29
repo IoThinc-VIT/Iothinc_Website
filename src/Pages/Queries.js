@@ -11,10 +11,10 @@ const Query = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_2299a2j",
+        "template_cy7tzrm",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "WkiSLarAyp739HhUg"
       )
       .then(
         (result) => {
