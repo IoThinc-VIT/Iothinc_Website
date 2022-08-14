@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       jost: ['"Jost"'],
-      roboto: ['"Roboto'],
+      roboto: ['"Roboto"'],
       satoshi: ['"Satoshi"'],
     },
     extend: {
