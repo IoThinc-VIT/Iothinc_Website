@@ -2,17 +2,17 @@ import React from "react";
 
 import TileComponent from "../Components/TileComponent";
 
-import FacultyCoordinator from "./../Images/faculty_coordinator.png";
-import Chairperson from "./../Images/Aravindaan S.png";
-import CoSecretary from "./../Images/Vishwa Shah.png";
-import DesignHead from "./../Images/Hem prasath.png";
-import FinanceHead from "./../Images/Vikram adhitya.png";
-import ManagementHead from "./../Images/Rohan pon.png";
-import ProjectHead from "./../Images/Hari (1).png";
-import PublicityHead from "./../Images/Mehul.png";
-import Secretary from "./../Images/Swastik shukla.png";
-import TechnicalHead from "./../Images/Hemendra Sharma.png";
-import ViceChairperson from "./../Images/Adithya chaudhary.png";
+import FacultyCoordinator from "./../Images/Prof.jpg";
+import Chairperson from "./../Images/Aravindaan s.jpg";
+import CoSecretary from "./../Images/vishwa shah.jpg";
+import DesignHead from "./../Images/hem prasath.jpg";
+import FinanceHead from "./../Images/vikram adhitya.jpg";
+import ManagementHead from "./../Images/rohan pon.jpg";
+import ProjectHead from "./../Images/hari v.jpg";
+import PublicityHead from "./../Images/mehul rana.jpg";
+import Secretary from "./../Images/swastik shukla.jpg";
+import TechnicalHead from "./../Images/hemendra sharma.jpg";
+import ViceChairperson from "./../Images/Adita choudhary.jpg";
 
 const Board = () => {
   return (
