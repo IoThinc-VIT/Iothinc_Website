@@ -3,16 +3,16 @@ import React from "react";
 import TileComponent from "../Components/TileComponent";
 
 import FacultyCoordinator from "./../Images/faculty_coordinator.png";
-import Chairperson from "./../Images/chairperson.png";
-import CoSecretary from "./../Images/co-secretary.png";
-import DesignHead from "./../Images/design-head.png";
-import FinanceHead from "./../Images/finance-head.png";
-import ManagementHead from "./../Images/management-head.png";
-import ProjectHead from "./../Images/project-head.png";
-import PublicityHead from "./../Images/publicity-head.png";
-import Secretary from "./../Images/secretary.png";
-import TechnicalHead from "./../Images/technical-head.png";
-import ViceChairperson from "./../Images/vice-chairperson.png";
+import Chairperson from "./../Images/Aravindaan S.png";
+import CoSecretary from "./../Images/Vishwa Shah.png";
+import DesignHead from "./../Images/Hem prasath.png";
+import FinanceHead from "./../Images/Vikram adhitya.png";
+import ManagementHead from "./../Images/Rohan pon.png";
+import ProjectHead from "./../Images/Hari (1).png";
+import PublicityHead from "./../Images/Mehul.png";
+import Secretary from "./../Images/Swastik shukla.png";
+import TechnicalHead from "./../Images/Hemendra Sharma.png";
+import ViceChairperson from "./../Images/Adithya chaudhary.png";
 
 const Board = () => {
   return (
