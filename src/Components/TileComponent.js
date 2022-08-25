@@ -1,12 +1,12 @@
 import * as React from "react";
 import Instagram from "./../Images/instagram.png";
-import Linkedin from "./../Images/Linkedin.png";
+import Linkedin from "./../Images/linkedin.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const TileComponent = (props) => {
   return (
     <div className="mt-4 md:mx-4 mx-auto">
-      <div className={props.backgroundDef + " h-80 w-80 rounded-t-lg"}>
+      <div className={" h-80 w-80 rounded-t-lg"}>
         <div className="h-full w-full z-10">
           
           <LazyLoadImage
@@ -22,7 +22,7 @@ const TileComponent = (props) => {
           {props.designation}
         </div>
         <div
-          className={"font-bold tracking-wide text-2xl " + props.textColorDef}
+          className={"font-bold tracking-wide text-2xl text-board-text-1"}
         >
           {props.name}
         </div>

@@ -31,8 +31,6 @@ const Board = () => {
             <div className="md:flex justify-center items-center md:flex">
               <TileComponent
                 img={FacultyCoordinator}
-                backgroundDef="bg-board-bg-1"
-                textColorDef="text-board-text-1"
                 svgFill="#8E8ED6"
                 designation="Faculty Coordinator"
                 name="Prof. Sujatha R"
@@ -41,8 +39,6 @@ const Board = () => {
               />
               <TileComponent
                 img={Chairperson}
-                backgroundDef="bg-board-bg-2"
-                textColorDef="text-board-text-2"
                 svgFill="#8ED6B2"
                 designation="Chairperson"
                 name="Aravindaan S"
@@ -51,7 +47,6 @@ const Board = () => {
               />
               <TileComponent
                 img={ViceChairperson}
-                backgroundDef="bg-board-bg-3"
                 textColorDef="text-board-text-3"
                 svgFill="#8EC4D6"
                 designation="Vice Chairperson"
@@ -63,8 +58,6 @@ const Board = () => {
             <div className="md:flex justify-center items-center">
               <TileComponent
                 img={Secretary}
-                backgroundDef="bg-board-bg-4"
-                textColorDef="text-board-text-4"
                 svgFill="#D6A08E"
                 designation="Secretary"
                 name="Swastik Shukla"
@@ -74,8 +67,6 @@ const Board = () => {
 
               <TileComponent
                 img={CoSecretary}
-                backgroundDef="bg-board-bg-5"
-                textColorDef="text-board-text-5"
                 svgFill="#C8898C"
                 designation="Co Secretary"
                 name="Vishwa Shah"
@@ -85,8 +76,6 @@ const Board = () => {
 
               <TileComponent
                 img={TechnicalHead}
-                backgroundDef="bg-board-bg-6"
-                textColorDef="text-board-text-6"
                 svgFill="#D6D68E"
                 designation="Technical Head"
                 name="Hemendra S"
@@ -97,8 +86,6 @@ const Board = () => {
             <div className="md:flex justify-center items-center">
               <TileComponent
                 img={DesignHead}
-                backgroundDef="bg-board-bg-1"
-                textColorDef="text-board-text-1"
                 svgFill="#8E8ED6"
                 designation="Design Head"
                 name="Hem Prasath"
@@ -108,8 +95,6 @@ const Board = () => {
 
               <TileComponent
                 img={PublicityHead}
-                backgroundDef="bg-board-bg-2"
-                textColorDef="text-board-text-2"
                 svgFill="#8ED6B2"
                 designation="Publicity Head"
                 name="Mehul Rana"
@@ -119,8 +104,6 @@ const Board = () => {
 
               <TileComponent
                 img={ManagementHead}
-                backgroundDef="bg-board-bg-3"
-                textColorDef="text-board-text-3"
                 svgFill="#8EC4D6"
                 designation="Management Head"
                 name="Rohan P Surya"
@@ -131,8 +114,6 @@ const Board = () => {
             <div className="md:flex justify-center items-center">
               <TileComponent
                 img={ProjectHead}
-                backgroundDef="bg-board-bg-4"
-                textColorDef="text-board-text-4"
                 svgFill="#D6A08E"
                 designation="Project Head"
                 name="Hari V"
@@ -142,8 +123,6 @@ const Board = () => {
 
               <TileComponent
                 img={FinanceHead}
-                backgroundDef="bg-board-bg-6"
-                textColorDef="text-board-text-6"
                 svgFill="#D6D68E"
                 designation="Finance Head"
                 name="Vikram Aditya"
