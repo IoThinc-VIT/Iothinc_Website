@@ -1,6 +1,6 @@
 import * as React from "react";
-import Instagram from "./../Images/instagram.png";
-import Linkedin from "./../Images/linkedin.png";
+import Instagram from "./../Images/insta.png";
+import Linkedin from "./../Images/linked.png";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const TileComponent = (props) => {
@@ -29,11 +29,11 @@ const TileComponent = (props) => {
         <div className="flex flex-row gap-6 justify-center items-center">
           {props.insta && (
             <a href={props.insta} target="_blank">
-              <img src={Instagram} height="30" width="30"></img>
+              <img src={Instagram} height="40" width="40"></img>
             </a>
           )}
           <a href={props.linkedin} target="_blank">
-            <img src={Linkedin} height="30" width="30"></img>
+            <img src={Linkedin} height="40" width="40"></img>
           </a>
         </div>
       </div>

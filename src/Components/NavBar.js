@@ -44,9 +44,15 @@ const Navbar = () => {
     <nav className="fixed w-full bg-white px-5 py-2">
       <div className="flex justify-between">
         <div>
-          <a Link="Home" className="flex items-center px-2">
+          <Link to="Home" 
+          className="flex items-center px-2"
+          activeClass="font-medium"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}>
             <Logo className="" />
-          </a>
+          </Link>
         </div>
         <div class="hidden md:flex items-center space-x-10">
               {NAVITEMS.map((item, index) => (
