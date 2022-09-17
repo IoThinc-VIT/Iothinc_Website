@@ -1,0 +1,67 @@
+.btn,
+.btn-cancel,
+.page-index {
+  font-family: var(--index-font);
+  font-weight: 100;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 1px 6px;
+  border: 12px solid transparent;
+  margin-right: 23px;
+  margin-bottom: 23px;
+  background: transparent;
+  border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAATElEQVRYw+3YwQ0AIAgEwcNi7ID+C7ADmsEa7mFCzM5bzT7BKGXLsHXCOe++7194qJS9NAxBBBFEEEEAAPyGNYh5iCCCCCLIE9O+9C7MERJ/HwIJlAAAAABJRU5ErkJggg==")
+    12;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.btn.red {
+  background-color: rgb(228, 59, 59);
+  color: rgb(0, 0, 0);
+}
+
+.btn.red:hover {
+  background-color: rgba(0, 6, 12, 0.2) !important;
+  color: rgb(228, 59, 59) !important;
+}
+
+.btn.contact {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn.light {
+  font-weight: 100;
+}
+
+.btn:focus,
+.btn:hover:not(:disabled) {
+  background: var(--link-hover-bg-color);
+  color: var(--link-hover-color);
+}
+
+.btn-cancel {
+  border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAASElEQVRYw+3YsQ0AIQwEQUyRLvKahBocvIReMzGgDW0qyVkD3V2T89P35xc+lOTs9RhBggQJEgQAf2MNMg8JEiRI0Ey99qV3ATnLGhkcYlSUAAAAAElFTkSuQmCC")
+    12;
+  color: var(--button-cancel-color);
+}
+
+.btn-cancel:focus,
+.btn-cancel:hover:not(:disabled) {
+  background: transparent;
+  border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAASUlEQVRYw+3YsQ0AIQwEQUwJ7r/GawFqcPASes3EgDa0qSRnDXR3Tc5P359f+FCSs9djBAkSJEgQAPyNNcg8JEiQIEEz9dqX3gUopR7hfWGEpAAAAABJRU5ErkJggg==")
+    12;
+  color: var(--main-text-color);
+}

@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAOUlEQVRIx2NkYOP5z0BDwMRAYzBqAWELJOVUsEpQS5xxNBWNpqLRVDRqwWgqGrWALhbYu3jTNBUBAOTfCpTGsWyyAAAAAElFTkSuQmCC);
+  background-position: center;
+  background-repeat: repeat;
+  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Open Sans,
+    Helvetica Neue;
+}
+
+.set-bg {
+  /* background-image: url('./assets/images/bg.png') !important; */
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAOUlEQVRIx2NkYOP5z0BDwMRAYzBqAWELJOVUsEpQS5xxNBWNpqLRVDRqwWgqGrWALhbYu3jTNBUBAOTfCpTGsWyyAAAAAElFTkSuQmCC) !important;
+  background-position: center;
+  background-repeat: repeat;
+}
