@@ -1,0 +1,28 @@
+.section__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 0 3rem;
+  text-transform: uppercase;
+}
+
+.live__dot {
+  -webkit-animation: live 2.5s cubic-bezier(0.82, 0.23, 0.55, 0.95) infinite
+    alternate;
+  animation: live 2.5s cubic-bezier(0.82, 0.23, 0.55, 0.95) infinite alternate;
+  background: #da0035;
+  border-radius: 100%;
+  display: inline-block;
+  height: 0.6em;
+  margin: 0 0.2em 0 -0.2em;
+  vertical-align: 0.05em;
+  width: 0.6em;
+}
+
+@keyframes live {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.25;
+  }
+}

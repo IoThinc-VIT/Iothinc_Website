@@ -6,7 +6,7 @@ import "./About.css";
 const About = () => {
   return (
     <section
-      className="set-bg section section--what-is-a-hackathon w-full my-20"
+      className="set-bg section section--what-is-a-hackathon w-full"
       id="what-is-a-hackathon"
     >
       <div className="content__wrapper content__wrapper--what-is-a-hackathon max-w-[960px] w-[90%] mx-auto">

@@ -15,3 +15,11 @@ body {
   background-position: center;
   background-repeat: repeat;
 }
+
+.content__wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 5rem 1rem;
+  text-align: center;
+}

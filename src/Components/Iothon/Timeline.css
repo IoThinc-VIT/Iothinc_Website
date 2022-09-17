@@ -1,0 +1,213 @@
+.timeline_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.timeline_item {
+  width: 100%;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
+.timeline_info {
+  width: 75%;
+  display: flex;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+.timeline_desc {
+  flex-grow: 1;
+  background: white;
+  text-align: left;
+  padding: 16px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  font-size: 14px;
+}
+.timeline_title {
+  font-size: 20px;
+  margin: 0;
+}
+.timeline_msg {
+  color: black;
+  margin: 8px 0 0 0;
+}
+.timeline_time {
+  width: 140px;
+  min-width: 140px;
+  max-width: 140px;
+  background: linear-gradient(90deg, #0a9991cc, #6ffff0cc);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.timeline_time p {
+  margin: 0;
+}
+.timeline_icon {
+  width: 50px;
+  height: 50px;
+  color: inherit;
+  background: linear-gradient(90deg, #0a9991cc, #6ffff0cc);
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+.timeline_icon::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background: inherit;
+  position: absolute;
+}
+.timeline_icon::after {
+  content: "";
+  width: 3px;
+  height: 150px;
+  background: inherit;
+  position: absolute;
+  bottom: 0%;
+  transform: translateY(100%);
+}
+.timeline_right .timeline_icon {
+  margin-left: 80px;
+}
+.timeline_right .timeline_icon::before {
+  left: 0%;
+  transform: translateX(-100%);
+}
+.timeline_left .timeline_icon {
+  margin-right: 80px;
+}
+.timeline_left .timeline_icon::before {
+  right: 0%;
+  transform: translateX(100%);
+}
+.timeline_last .timeline_icon::after {
+  display: none;
+}
+
+.timeline_time {
+  background: linear-gradient(-90deg, #0a9991, #6ffff0) !important;
+}
+.timeline_icon {
+  background: linear-gradient(-90deg, #0a9991, #6ffff0) !important;
+}
+.timeline_info {
+  border: 2px solid #6ffff0;
+  background: #6ffff0;
+}
+
+@media screen and (max-width: 800px) {
+  .timeline_desc p {
+    font-size: 13px;
+  }
+  .timeline_desc h1 {
+    font-size: 18px;
+  }
+  .timeline_time {
+    padding: 8px;
+  }
+  .timeline_time p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timeline_item {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+  .timeline_info {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .timeline_info::after {
+    content: "";
+    width: 70%;
+    height: 100px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, #0a9991, #6ffff0);
+    clip-path: polygon(
+      0% 0%,
+      0% 100%,
+      3% 100%,
+      3% 0,
+      97% 0,
+      97% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 0%
+    );
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    z-index: 4;
+  }
+  .timeline_desc {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 12px;
+  }
+  .timeline_time {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 12px 8px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 0px;
+  }
+  .timeline_icon {
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 48px 0px;
+    order: 1;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .timeline_icon::after {
+    display: none;
+  }
+  .timeline_icon::before {
+    display: none;
+  }
+  .timeline_right .timeline_icon {
+    margin-left: 0px;
+  }
+  .timeline_left .timeline_icon {
+    margin-right: 0px;
+  }
+  .timeline_last .timeline_info::after {
+    display: none;
+  }
+}

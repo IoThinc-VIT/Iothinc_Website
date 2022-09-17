@@ -1,0 +1,30 @@
+.participate__container {
+  grid-gap: 2rem;
+  gap: 2rem;
+  display: grid;
+  grid-template: -webkit-min-content min-content/1fr 1fr;
+  grid-template: min-content min-content/1fr 1fr;
+}
+
+.participate__container > div,
+.participate__container > div > dd {
+  display: flex;
+  flex-direction: column;
+}
+.participate__item {
+  background-color: #272f44;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  text-align: left;
+}
+
+.participate__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 0.8;
+  margin: 0;
+}
+.participate__desc {
+  flex-grow: 1;
+  margin: 1rem 0;
+}
