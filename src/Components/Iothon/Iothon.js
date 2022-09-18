@@ -3,14 +3,17 @@ import React, { useEffect } from "react";
 import "./Iothon.css";
 import About from "./About";
 import Header from "./Header";
-import Sample from "./Sample";
 import Features from "./Features";
 import Live from "./Live";
 import HowTo from "./HowTo";
 import Faq from "./Faq";
-import "./faq.ts";
 import Social from "./Social";
 import Timeline from "./Timeline";
+import Sponsor from "./Sponsor";
+import Iothinc from "./Iothinc";
+import Footer from "./Footer";
+
+import Sample from "./Sample";
 
 const Iothon = () => {
   return (
@@ -25,6 +28,9 @@ const Iothon = () => {
         <Faq />
         <Social />
         <Timeline />
+        <Sponsor />
+        <Iothinc />
+        <Footer />
       </main>
     </div>
   );

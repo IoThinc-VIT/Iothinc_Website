@@ -1,21 +1,62 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./Faq.css";
 
 const Faq = () => {
+  useEffect(() => {
+    const faqLinkElems = document.querySelectorAll(
+      '.faq__answer[aria-hidden="true"] a'
+    );
+    for (const linkElem of faqLinkElems) {
+      linkElem.tabIndex = -1;
+    }
+
+    const faqQuestionTitleElems = document.querySelectorAll(".faq__title");
+
+    for (const faqQuestionTitleElem of faqQuestionTitleElems) {
+      faqQuestionTitleElem.addEventListener("click", () => {
+        const faqQuestionElem = faqQuestionTitleElem.closest(".faq__question");
+        const faqAnswerElem =
+          faqQuestionElem?.querySelector(".faq__answer") ?? null;
+
+        if (faqQuestionElem && faqAnswerElem) {
+          if (faqQuestionTitleElem.getAttribute("aria-expanded") === "true") {
+            faqQuestionElem.classList.remove("faq__question--expanded");
+            faqQuestionTitleElem.setAttribute("aria-expanded", "false");
+            faqAnswerElem.setAttribute("aria-hidden", "true");
+            faqAnswerElem.style.maxHeight = "";
+
+            faqAnswerElem.querySelectorAll("a").forEach((linkElem) => {
+              linkElem.tabIndex = -1;
+            });
+          } else {
+            faqQuestionElem.classList.add("faq__question--expanded");
+            faqAnswerElem.setAttribute("aria-hidden", "false");
+            faqQuestionTitleElem.setAttribute("aria-expanded", "true");
+            faqAnswerElem.style.maxHeight = `${faqAnswerElem.scrollHeight}px`;
+
+            faqAnswerElem.querySelectorAll("a").forEach((linkElem) => {
+              linkElem.tabIndex = 0;
+            });
+          }
+        }
+      });
+    }
+  }, []);
+
   return (
-    <section class="set-bg section section--faq text-white" id="faq">
-      <div class="content__wrapper">
-        <h2 class="section__title">FAQ</h2>
-        <div class="faq">
-          <div class="faq__column">
-            <div class="faq__category">
-              <h3 class="faq__category-title">About HackUPC</h3>
-              <dl class="faq__list">
-                <div class="faq__question">
+    <section className="set-bg section section--faq text-white" id="faq">
+      <div className="content__wrapper">
+        <h2 className="section__title">FAQ</h2>
+        <div className="faq">
+          <div className="faq__column">
+            <div className="faq__category">
+              <h3 className="faq__category-title">About HackUPC</h3>
+              <dl className="faq__list">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-about-0"
@@ -24,7 +65,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-about-0">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-about-0"
+                    >
                       HackUPC is the first student hackathon in Spain. This will
                       be our seventh edition with lots of side activities to
                       learn new technologies, meet interesting people and have
@@ -32,10 +77,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-about-1"
@@ -44,7 +89,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-about-1">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-about-1"
+                    >
                       The opening ceremony{" "}
                       <strong>starts at 7:00 p.m. on Friday</strong>, May 14th.
                       We expect to
@@ -55,10 +104,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-about-3"
@@ -67,7 +116,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-about-3">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-about-3"
+                    >
                       You can build any tech-related project, we do not have
                       restrictions over the topic. Some examples are webpages,
                       mobile apps, hardware projects, games, an API... Remember
@@ -77,10 +130,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-about-5"
@@ -89,7 +142,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-about-5">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-about-5"
+                    >
                       Projects will be judged based on technical difficulty,
                       innovation and overall learning experience mainly, but
                       also on their usability and design, by a panel of industry
@@ -97,10 +154,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-about-7"
@@ -109,7 +166,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-about-7">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-about-7"
+                    >
                       Yes, here it is:
                       <a
                         href="https://www.iothincvit.in/"
@@ -128,14 +189,14 @@ const Faq = () => {
               </dl>
             </div>
           </div>
-          <div class="faq__column">
-            <div class="faq__category">
-              <h3 class="faq__category-title">Applications</h3>
-              <dl class="faq__list">
-                <div class="faq__question">
+          <div className="faq__column">
+            <div className="faq__category">
+              <h3 className="faq__category-title">Applications</h3>
+              <dl className="faq__list">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-applications-0"
@@ -145,7 +206,7 @@ const Faq = () => {
                   </dt>
                   <dd>
                     <p
-                      class="faq__answer"
+                      className="faq__answer"
                       aria-hidden="true"
                       id="faq-applications-0"
                     >
@@ -157,10 +218,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-applications-1"
@@ -170,7 +231,7 @@ const Faq = () => {
                   </dt>
                   <dd>
                     <p
-                      class="faq__answer"
+                      className="faq__answer"
                       aria-hidden="true"
                       id="faq-applications-1"
                     >
@@ -199,10 +260,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-applications-2"
@@ -212,7 +273,7 @@ const Faq = () => {
                   </dt>
                   <dd>
                     <p
-                      class="faq__answer"
+                      className="faq__answer"
                       aria-hidden="true"
                       id="faq-applications-2"
                     >
@@ -223,10 +284,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-applications-3"
@@ -236,7 +297,7 @@ const Faq = () => {
                   </dt>
                   <dd>
                     <p
-                      class="faq__answer"
+                      className="faq__answer"
                       aria-hidden="true"
                       id="faq-applications-3"
                     >
@@ -251,13 +312,13 @@ const Faq = () => {
                 </div>
               </dl>
             </div>
-            <div class="faq__category">
-              <h3 class="faq__category-title">Teams</h3>
-              <dl class="faq__list">
-                <div class="faq__question">
+            <div className="faq__category">
+              <h3 className="faq__category-title">Teams</h3>
+              <dl className="faq__list">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-teams-0"
@@ -266,17 +327,21 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-teams-0">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-teams-0"
+                    >
                       It's completely fine! In fact, you come here to learn, so
                       you don't need any previous experience. We would love to
                       receive your application!
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-teams-1"
@@ -285,7 +350,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-teams-1">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-teams-1"
+                    >
                       No need to worry! Part of the fun of a hackathon is
                       meeting new people. We will have a team building activity
                       at the beginning of the event for everyone to meet and
@@ -293,10 +362,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-teams-2"
@@ -305,7 +374,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-teams-2">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-teams-2"
+                    >
                       If <code>myTeam.length &lt;= 4</code>, you're good to go.{" "}
                       <br />
                       Teams up to 4 members are welcome. Have in mind that if
@@ -314,10 +387,10 @@ const Faq = () => {
                     </p>
                   </dd>
                 </div>
-                <div class="faq__question">
+                <div className="faq__question">
                   <dt>
                     <button
-                      class="faq__title"
+                      className="faq__title"
                       type="button"
                       aria-expanded="false"
                       aria-controls="faq-teams-3"
@@ -326,7 +399,11 @@ const Faq = () => {
                     </button>
                   </dt>
                   <dd>
-                    <p class="faq__answer" aria-hidden="true" id="faq-teams-3">
+                    <p
+                      className="faq__answer"
+                      aria-hidden="true"
+                      id="faq-teams-3"
+                    >
                       Yes, in fact, we encourage you to team up with hackers you
                       meet there. You'll meet awesome people! <br />
                       To change your team you don’t have to notify us, just put
@@ -338,8 +415,8 @@ const Faq = () => {
             </div>
           </div>
         </div>
-        <h3 class="faq__others-title">What if I have another question?</h3>
-        <p class="faq__others-answer">
+        <h3 className="faq__others-title">What if I have another question?</h3>
+        <p className="faq__others-answer">
           DM us at if you want to contact us via email, drop us a line at{" "}
           <a
             href="mailto:iothin.community@gmail.com"
