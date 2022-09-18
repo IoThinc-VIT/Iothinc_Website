@@ -14,6 +14,7 @@ import Iothinc from "./Iothinc";
 import Footer from "./Footer";
 
 import Sample from "./Sample";
+import Form from "./Form";
 
 const Iothon = () => {
   return (
@@ -25,6 +26,7 @@ const Iothon = () => {
         <Features />
         <Live />
         <HowTo />
+        <Form />
         <Faq />
         <Social />
         <Timeline />
