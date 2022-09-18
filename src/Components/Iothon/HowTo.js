@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./HowTo.css";
+import "./HowTo.scss";
 
 const HowTo = () => {
   return (

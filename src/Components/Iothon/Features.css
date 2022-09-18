@@ -72,12 +72,11 @@
 }
 @media only screen and (max-width: 600px) {
   .container-02 {
-    width: 90vw !important;
     overflow-x: hidden !important;
   }
   .container-02 .glassmorphic-card {
     width: 75% !important;
-    overflow-y: hidden;
+    height: fit-content;
   }
   .container-02::after {
     position: absolute;
@@ -92,13 +91,13 @@
   .container-02::before {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 100%;
     width: 40% !important;
     height: 60% !important;
     background: linear-gradient(#10c2b7, #73ffa6);
     clip-path: circle(20% at 88% 75%);
     content: "";
-    transform: translateX(260px) !important;
+    transform: translateX(-100%) !important;
   }
 }
 .container-02 .glassmorphic-card::before {
