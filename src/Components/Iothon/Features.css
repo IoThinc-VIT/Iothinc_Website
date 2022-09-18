@@ -58,7 +58,7 @@
   width: 90%;
   min-width: 160px;
   max-width: 330px;
-  height: 30vh;
+  height: fit-content;
   padding: 40px 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -76,7 +76,6 @@
   }
   .container-02 .glassmorphic-card {
     width: 75% !important;
-    height: fit-content;
   }
   .container-02::after {
     position: absolute;
