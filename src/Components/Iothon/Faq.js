@@ -70,9 +70,7 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-about-0"
                     >
-                      IoThon is a 48-hour hackathon in which teams compete to
-                      create the most feasible and unique solutions to
-                      real-world problems.
+                      Teams compete during the 48 hour IoThon hackathon to develop the most innovative and workable solutions to real-world problems.
                     </p>
                   </dd>
                 </div>
@@ -93,13 +91,7 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-about-1"
                     >
-                      The opening ceremony{" "}
-                      <strong>starts at 10:00 a.m. on Saturday</strong>, Oct
-                      1st. We expect to
-                      <strong>finish by 8:00 p.m. on Sunday</strong> Oct 2nd.{" "}
-                      <br />
-                      IoThon will take place <strong>online</strong> using
-                      Discord as the main platform.
+                      Saturday, October 1st, at 10:00 a.m., the opening ceremony will begin. On Sunday, October 2, we aim to wrap things up by 8:00 p.m. The venue's exact details will soon be revealed
                     </p>
                   </dd>
                 </div>
@@ -176,7 +168,7 @@ const Faq = () => {
                         Code of conduct
                       </a>
                       . <br />
-                      Be respectful! harassment and abuse are never tolerated.
+                     Be courteous to your fellow participants. Any malpractices or foul play will result in disqualification without warning.
                     </p>
                   </dd>
                 </div>
