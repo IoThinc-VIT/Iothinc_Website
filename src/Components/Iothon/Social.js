@@ -58,7 +58,7 @@ const Social = () => {
                 src="assets/images/icons/icon-email-circle.svg"
                 alt="Email"
               /> */}
-              <div className="w-[64px] h-[64px] bg-white flex justify-center items-center rounded-full">
+              <div className="item-size bg-white flex justify-center items-center rounded-full">
                 <Discord alt="Discord" width="44" height="44" />
               </div>
             </a>
@@ -90,7 +90,7 @@ const Social = () => {
                 src="assets/images/icons/icon-medium-circle.svg"
                 alt="Medium"
               /> */}
-              <LinkedIn alt="LinkedIn" style={{ transform: "scale(1.1)" }} />
+              <LinkedIn alt="LinkedIn" className="item-size scale-[1.1]"/>
             </a>
           </li>
           <li className="follow-us__item">

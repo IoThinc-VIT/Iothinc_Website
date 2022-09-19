@@ -34,6 +34,10 @@
   transition: transform 0.3s cubic-bezier(0.17, 2.55, 0.69, 0.4);
   will-change: transform;
 }
+.item-size{
+  width: 68px;
+  height: 68px;
+}
 .follow-us__item:hover {
   transform: scale(1.15);
   transition: transform 0.15s cubic-bezier(0.18, 0.89, 0.57, 2.05);
@@ -80,6 +84,10 @@ svg {
 
   .follow-us__item {
     width: 4.5rem;
+  }
+  .item-size{
+    width: 60px;
+    height: 60px;
   }
 
   .follow-us__list {
