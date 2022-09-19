@@ -265,7 +265,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-teams-0"
                     >
-                      What if I don't have any experience in coding and IOT?
+                      What if I don't have any experience in coding and IoT?
                     </button>
                   </dt>
                   <dd>

@@ -13,8 +13,9 @@ const Timeline = () => {
                 <h1 className="timeline_title">Ideation Round</h1>
                 <p className="timeline_msg">
                   {" "}
-                  This is the first round, where all the innovative ideas will
-                  be put forward by the participants.
+                  This is the first round, in which you will brainstorm ideas
+                  and determine whether they are feasible and viable to build in
+                  48 hours.
                 </p>
               </div>
               <div className="timeline_time">
@@ -37,8 +38,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Lunch Break</h1>
                 <p className="timeline_msg">
-                  The participants can take a break from the tiring round that
-                  had taken place earlier.
+                  Take a short lunch break, get pumped up, and then return to
+                  work on your idea.
                 </p>
               </div>
               <div
