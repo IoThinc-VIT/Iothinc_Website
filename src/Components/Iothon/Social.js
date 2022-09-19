@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./Social.css";
-import { ReactComponent as Email } from "../../Images/Iothon/icons/icon-email-circle.svg";
+import { ReactComponent as Discord } from "../../Images/Iothon/icons/icon-discord.svg";
 import { ReactComponent as Facebook } from "../../Images/Iothon/icons/icon-facebook-circle.svg";
 import { ReactComponent as Github } from "../../Images/Iothon/icons/icon-github-circle.svg";
 import { ReactComponent as Instagram } from "../../Images/Iothon/icons/icon-instagram-circle.svg";
-import { ReactComponent as Medium } from "../../Images/Iothon/icons/icon-medium-circle.svg";
 import { ReactComponent as Youtube } from "../../Images/Iothon/icons/icon-youtube-circle.svg";
+import { ReactComponent as LinkedIn } from "../../Images/Iothon/icons/icon-linkedin-circle.svg";
 
 const Social = () => {
   return (
@@ -19,7 +19,7 @@ const Social = () => {
         <ul className="follow-us__list">
           <li className="follow-us__item">
             <a
-              href="https://www.instagram.com/iothincvit/?hl=en"
+              href="https://instagram.com/iothincvit?igshid=1t7197dnrvqwu"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -48,13 +48,19 @@ const Social = () => {
             </a>
           </li>
           <li className="follow-us__item">
-            <a href="mailto:iothinc.community@gmail.com" aria-label="Email">
+            <a
+              href="https://discord.gg/G9Wa2rHuKB"
+              aria-label="Discord"
+              target="_blank"
+            >
               {/* <img
                 data-markup-inline
                 src="assets/images/icons/icon-email-circle.svg"
                 alt="Email"
               /> */}
-              <Email alt="Email" />
+              <div className="w-[64px] h-[64px] bg-white flex justify-center items-center rounded-full">
+                <Discord alt="Discord" width="44" height="44" />
+              </div>
             </a>
           </li>
           <li className="follow-us__item">
@@ -74,17 +80,17 @@ const Social = () => {
           </li>
           <li className="follow-us__item">
             <a
-              href="https://medium.com/iothincvit"
+              href="https://www.linkedin.com/company/iothincvit"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Medium"
+              aria-label="LinkedIn"
             >
               {/* <img
                 data-markup-inline
                 src="assets/images/icons/icon-medium-circle.svg"
                 alt="Medium"
               /> */}
-              <Medium alt="Medium" />
+              <LinkedIn alt="LinkedIn" style={{ transform: "scale(1.1)" }} />
             </a>
           </li>
           <li className="follow-us__item">

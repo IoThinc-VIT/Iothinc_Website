@@ -4,9 +4,14 @@
 
 .participate {
   &__container {
-    display: grid;
+    // display: grid;
+    // gap: 2rem;
+    // grid-template: min-content min-content / 1fr 1fr;
+    max-width: 468px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
     gap: 2rem;
-    grid-template: min-content min-content / 1fr 1fr;
 
     > div {
       display: flex;
@@ -43,6 +48,10 @@
     display: flex;
     align-items: center;
     margin-bottom: -0.75rem;
+
+    .btn{
+      margin-bottom: 0;
+    }
   }
 
   &__message {

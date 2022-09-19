@@ -14,7 +14,7 @@ const Header = () => {
       </div>
 
       <a
-        href="https://www.iothincvit.in/"
+        href="https://events.vit.ac.in/events/gravitas2022/"
         className=""
         role="button"
         data-ga-apply-button

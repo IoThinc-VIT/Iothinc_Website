@@ -9,6 +9,8 @@ import {
 } from "firebase/firestore";
 import { app } from "../../Firebase/firebase";
 
+import "./Form.css";
+
 const MEMBER = {
   regNumber: "",
   fullName: "",
@@ -138,40 +140,45 @@ const Form = () => {
   };
 
   return (
-    <form className="p-20 my-20 text-black">
-      <input
-        type={"text"}
-        value={teamName}
-        placeholder={"Enter a Team Name"}
-        onChange={(e) => {
-          const { value } = e.target;
-          if (value.length <= 30) {
-            setTeamName(e.target.value);
-          }
-        }}
-      />
-      <br></br>
-      {members.map((member, index) => (
-        <Teammate
-          key={index}
-          index={index}
-          title={`Teammate ${index + 1}`}
-          members={members}
-          setMembers={setMembers}
+    <section className="set-bg section text-white">
+      <form className="content__wrapper section-form-container text-black">
+        <input
+          type={"text"}
+          value={teamName}
+          placeholder={"Enter a Team Name"}
+          onChange={(e) => {
+            const { value } = e.target;
+            if (value.length <= 30) {
+              setTeamName(e.target.value);
+            }
+          }}
         />
-      ))}
-      <button onClick={handleAddTeammate} className="text-white" type="button">
-        Add Teammate
-      </button>
+        {members.map((member, index) => (
+          <Teammate
+            key={index}
+            index={index}
+            title={`Teammate ${index + 1}`}
+            members={members}
+            setMembers={setMembers}
+          />
+        ))}
 
-      <button
-        onClick={(e) => handleSubmit(e)}
-        className="text-white"
-        type="Submit"
-      >
-        Submit
-      </button>
-    </form>
+        <button
+          onClick={(e) => handleSubmit(e)}
+          className="text-white"
+          type="Submit"
+        >
+          Submit
+        </button>
+        <button
+          onClick={handleAddTeammate}
+          className="text-white"
+          type="button"
+        >
+          Add Teammate
+        </button>
+      </form>
+    </section>
   );
 };
 

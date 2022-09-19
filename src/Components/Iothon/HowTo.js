@@ -11,7 +11,7 @@ const HowTo = () => {
       <div className="content__wrapper">
         <h2 className="section__title">How to participate</h2>
         <dl className="participate__container">
-          <div className="participate__item">
+          {/* <div className="participate__item">
             <dt>
               <h3 className="participate__title">Sponsor</h3>
             </dt>
@@ -35,7 +35,7 @@ const HowTo = () => {
                 <span className="participate__message"></span>
               </div>
             </dd>
-          </div>
+          </div> */}
           <div className="participate__item">
             <dt>
               <h3 className="participate__title">Participant</h3>
@@ -49,7 +49,8 @@ const HowTo = () => {
               <div className="participate__bottom-row">
                 <a
                   className=""
-                  href="https://www.iothincvit.in/"
+                  href="https://events.vit.ac.in/events/gravitas2022/"
+                  target="_blank"
                   role="button"
                   data-ga-apply-button
                   data-location="participate"

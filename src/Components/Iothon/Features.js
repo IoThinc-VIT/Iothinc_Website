@@ -15,56 +15,58 @@ const Features = () => {
       >
         <div className="glassmorphic-card col-sm-8">
           <div className="contentBox">
-            <h3>Design</h3>
+            <h3>Mentors</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard ...
+              We will assign qualified mentors to assist you in overcoming any
+              difficulties you may encounter during the event and bringing your
+              unique ideas to life.
             </p>
           </div>
         </div>
 
         <div className="glassmorphic-card">
           <div className="contentBox">
-            <h3>Design</h3>
+            <h3>Refreshments</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard ...
+              We will provide free refreshments to all participants throughout
+              the night to keep your energy levels up and motivate you
+              throughout the event.
             </p>
           </div>
         </div>
         <div className="glassmorphic-card">
           <div className="contentBox">
-            <h3>Design</h3>
+            <h3>Industry Experts</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard ...
+              An opportunity to interact in person with top industry experts who
+              will be flying down to campus to meet all of you.
             </p>
           </div>
         </div>
         <div className="glassmorphic-card">
           <div className="contentBox">
-            <h3>Design</h3>
+            <h3>Speaker</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard ...
+              Speaker sessions with industry experts to enlighten us with their
+              knowledge and experience in the field of electronics and IoT.
             </p>
           </div>
         </div>
         <div className="glassmorphic-card">
           <div className="contentBox">
-            <h3>Design</h3>
+            <h3>Giveaways</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard ...
+              Throughout the event, there will be exciting giveaways and prizes
+              to be won.
             </p>
           </div>
         </div>
         <div className="glassmorphic-card">
           <div className="contentBox">
-            <h3>Design</h3>
+            <h3>Tracks</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard ...
+              The Event tracks are Urban Innovation, Disaster and public safety,
+              Open Innovation, Robotics, Healthcare
             </p>
           </div>
         </div>

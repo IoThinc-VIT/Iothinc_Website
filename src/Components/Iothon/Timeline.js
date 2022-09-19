@@ -10,7 +10,7 @@ const Timeline = () => {
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Opening Ceremony</h1>
+                <h1 className="timeline_title">Ideation Round</h1>
                 <p className="timeline_msg">
                   {" "}
                   We officially inaugurate our club’s grandest hackathon to the
@@ -18,8 +18,8 @@ const Timeline = () => {
                 </p>
               </div>
               <div className="timeline_time">
-                <p>DAY 1</p>
-                <p>16:00 - 18:00</p>
+                <p>Day 1</p>
+                <p>10:00 - 13:00</p>
               </div>
             </div>
             <div className="timeline_icon">1</div>
@@ -35,7 +35,7 @@ const Timeline = () => {
             </div>
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Attendance and Icebreaker</h1>
+                <h1 className="timeline_title">Lunch Break</h1>
                 <p className="timeline_msg">
                   Attendance for the event is taken and a fun activity is
                   conducted to welcome and warm-up the contestants.
@@ -48,14 +48,14 @@ const Timeline = () => {
                   background: "linear-gradient(90deg, #0a9991cc, #6ffff0cc)",
                 }}
               >
-                <p>18:00 - 18:30</p>
+                <p>13:00 - 15:00</p>
               </div>
             </div>
           </li>
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Speaker Session</h1>
+                <h1 className="timeline_title">Review 1</h1>
                 <p className="timeline_msg">
                   We are extremely lucky to be in the presence of Mr./Mrs./Ms.
                   XYZ, who will share his/her’s own experience on hackathons and
@@ -69,7 +69,7 @@ const Timeline = () => {
                   background: "linear-gradient(90deg, #0a9991cc, #6ffff0cc)",
                 }}
               >
-                <p>18:30 - 19:00</p>
+                <p>15:00 - 20:00</p>
               </div>
             </div>
             <div
@@ -87,7 +87,7 @@ const Timeline = () => {
             </div>
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Review-1</h1>
+                <h1 className="timeline_title">Dinner Break</h1>
                 <p className="timeline_msg">
                   The first round of the event officially begins from now.
                 </p>
@@ -96,15 +96,14 @@ const Timeline = () => {
                 className="timeline_time"
                 style={{ color: "#000", background: "#CAE9FF" }}
               >
-                <p>DAY 2</p>
-                <p>09:00 - 11:00</p>
+                <p>20:00 - 22:00</p>
               </div>
             </div>
           </li>
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Elimination-1</h1>
+                <h1 className="timeline_title">Review 2</h1>
                 <p className="timeline_msg">
                   Results of Review-1 will be announced, and the selected
                   participants are given a brief walk-through of the next round.
@@ -114,7 +113,8 @@ const Timeline = () => {
                 className="timeline_time"
                 style={{ color: "#000", background: "#BEE9E8" }}
               >
-                <p>12:00</p>
+                <p>Day 1 - Day 2</p>
+                <p>22:00 - 10:00</p>
               </div>
             </div>
             <div className="timeline_icon" style={{ background: "#BEE9E8" }}>
@@ -127,7 +127,7 @@ const Timeline = () => {
             </div>
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Community Event</h1>
+                <h1 className="timeline_title">Break</h1>
                 <p className="timeline_msg">
                   A fun, encouraging community event is hosted in the meantime,
                   to lift the spirits of the participants.
@@ -137,14 +137,14 @@ const Timeline = () => {
                 className="timeline_time"
                 style={{ color: "#000", background: "#BEE9E8" }}
               >
-                <p>15:00 - 16:00</p>
+                <p>10:00 - 14:00</p>
               </div>
             </div>
           </li>
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Review-2</h1>
+                <h1 className="timeline_title">Review 3</h1>
                 <p className="timeline_msg">
                   The second round of the event officially begins. Only the
                   qualified participants from Review-1 can participate.
@@ -154,20 +154,20 @@ const Timeline = () => {
                 className="timeline_time"
                 style={{ color: "#000", background: "#5FA8D3" }}
               >
-                <p>22:30 – 01:00</p>
+                <p>14:00 – 18:00</p>
               </div>
             </div>
             <div className="timeline_icon" style={{ background: "#5FA8D3" }}>
               7
             </div>
           </li>
-          <li className="timeline_item timeline_left">
+          <li className="timeline_item timeline_left timeline_last">
             <div className="timeline_icon" style={{ background: "#5FA8D3" }}>
               8
             </div>
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Elimination-2</h1>
+                <h1 className="timeline_title">Final Presentation</h1>
                 <p className="timeline_msg">
                   Results of Review-2 will be announced, and the selected
                   participants are given a brief walk-through of the next round.
@@ -177,12 +177,11 @@ const Timeline = () => {
                 className="timeline_time"
                 style={{ color: "#000", background: "#5FA8D3" }}
               >
-                <p>DAY 3</p>
-                <p>02:00</p>
+                <p>18:00 - 20:00</p>
               </div>
             </div>
           </li>
-          <li className="timeline_item timeline_right">
+          {/* <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review-3</h1>
@@ -267,7 +266,7 @@ const Timeline = () => {
                 <p>18:00</p>
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

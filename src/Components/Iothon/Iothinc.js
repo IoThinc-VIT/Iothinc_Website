@@ -40,7 +40,7 @@ const Iothinc = () => {
             </p>
             <a
               className="--about-us"
-              href="https://hackersatupc.org/"
+              href="https://iothinc.in/"
               target="_blank"
               rel="noopener noreferrer"
               role="button"

@@ -12,7 +12,7 @@ const Footer = () => {
         <strong>
           <a
             className="signature__author footer__link"
-            href="https://www.iothincvit.in/"
+            href="https://iothinc.in/"
             target="_blank"
             rel="noopener noreferrer"
             hrefLang="en"

@@ -4,9 +4,10 @@ body {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAOUlEQVRIx2NkYOP5z0BDwMRAYzBqAWELJOVUsEpQS5xxNBWNpqLRVDRqwWgqGrWALhbYu3jTNBUBAOTfCpTGsWyyAAAAAElFTkSuQmCC);
   background-position: center;
   background-repeat: repeat;
-  font-family: Montserrat, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
-    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Open Sans,
+  font-family: "Montserrat", sans-serif, system-ui, -apple-system, Segoe UI,
+    Roboto, Ubuntu, Cantarell, Noto Sans, BlinkMacSystemFont, Open Sans,
     Helvetica Neue;
+  letter-spacing: 0.8px;
 }
 
 .set-bg {

@@ -24,13 +24,13 @@ const Iothon = () => {
       <main>
         <About />
         <Features />
-        <Live />
         <HowTo />
-        <Form />
+        {/* <Form /> */}
+        <Timeline />
+        <Live />
         <Faq />
         <Social />
-        <Timeline />
-        <Sponsor />
+        {/* <Sponsor /> */}
         <Iothinc />
         <Footer />
       </main>

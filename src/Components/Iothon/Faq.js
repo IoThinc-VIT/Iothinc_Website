@@ -51,7 +51,7 @@ const Faq = () => {
         <div className="faq">
           <div className="faq__column">
             <div className="faq__category">
-              <h3 className="faq__category-title">About HackUPC</h3>
+              <h3 className="faq__category-title">About IoThon</h3>
               <dl className="faq__list">
                 <div className="faq__question">
                   <dt>
@@ -61,7 +61,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-about-0"
                     >
-                      What is HackUPC?
+                      What is IoThon?
                     </button>
                   </dt>
                   <dd>
@@ -70,10 +70,9 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-about-0"
                     >
-                      HackUPC is the first student hackathon in Spain. This will
-                      be our seventh edition with lots of side activities to
-                      learn new technologies, meet interesting people and have
-                      fun. Come make history with us!
+                      IoThon is a 48-hour hackathon in which teams compete to
+                      create the most feasible and unique solutions to
+                      real-world problems.
                     </p>
                   </dd>
                 </div>
@@ -85,7 +84,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-about-1"
                     >
-                      When & Where is HackUPC?
+                      When & Where is IoThon?
                     </button>
                   </dt>
                   <dd>
@@ -95,11 +94,11 @@ const Faq = () => {
                       id="faq-about-1"
                     >
                       The opening ceremony{" "}
-                      <strong>starts at 7:00 p.m. on Friday</strong>, May 14th.
-                      We expect to
-                      <strong>finish by 5:00 p.m. on Sunday</strong> 16th.{" "}
+                      <strong>starts at 10:00 a.m. on Saturday</strong>, Oct
+                      1st. We expect to
+                      <strong>finish by 8:00 p.m. on Sunday</strong> Oct 2nd.{" "}
                       <br />
-                      HackUPC will take place <strong>online</strong> using
+                      IoThon will take place <strong>online</strong> using
                       Discord as the main platform.
                     </p>
                   </dd>
@@ -121,12 +120,9 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-about-3"
                     >
-                      You can build any tech-related project, we do not have
-                      restrictions over the topic. Some examples are webpages,
-                      mobile apps, hardware projects, games, an API... Remember
-                      that you can also use a variety of hardware components,
-                      from Arduino kits and Raspberry Pi's, to Amazon Echo dots
-                      and Myo Arm.
+                      You can create any tech-related project that fits into the
+                      given tracks, but you will receive bonus points if you
+                      create something related to IoT.
                     </p>
                   </dd>
                 </div>
@@ -147,10 +143,9 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-about-5"
                     >
-                      Projects will be judged based on technical difficulty,
-                      innovation and overall learning experience mainly, but
-                      also on their usability and design, by a panel of industry
-                      judges and UPC faculty.
+                      Projects will be evaluated primarily on technical
+                      difficulty, innovation, and overall learning experience,
+                      with bonus points awarded for feasibility and uniqueness.
                     </p>
                   </dd>
                 </div>
@@ -171,7 +166,7 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-about-7"
                     >
-                      Yes, here it is:
+                      Yes, here it is:{" "}
                       <a
                         href="https://www.iothincvit.in/"
                         target="_blank"
@@ -181,8 +176,7 @@ const Faq = () => {
                         Code of conduct
                       </a>
                       . <br />
-                      TL;DR: Be respectful, harassment and abuse are never
-                      tolerated.
+                      Be respectful! harassment and abuse are never tolerated.
                     </p>
                   </dd>
                 </div>
@@ -210,11 +204,7 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-applications-0"
                     >
-                      Students from all around the world which are at least 14
-                      years old can apply. University, vocational training, high
-                      school, etc., students are all welcome! For under 18
-                      cases, we will request a letter signed by parents or legal
-                      tutor to attend.
+                      Anyone who is a college student is welcome to attend.
                     </p>
                   </dd>
                 </div>
@@ -226,7 +216,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-applications-1"
                     >
-                      How to make a good application?
+                      How to apply?
                     </button>
                   </dt>
                   <dd>
@@ -235,28 +225,9 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-applications-1"
                     >
-                      Try to make a difference amongst other hackers, be
-                      creative! However, above all, remember to be humble. In
-                      our Medium page, you can find a great
-                      <a
-                        href="https://medium.com/iothincvit"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        hrefLang="en"
-                      >
-                        post
-                      </a>
-                      in which are detailed all the steps to make your
-                      application even greater. Make sure you
-                      <a
-                        href="https://medium.com/iothincvit"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        hrefLang="en"
-                      >
-                        check it out
-                      </a>
-                      !
+                      You must first register and pay through the gravitas
+                      portal. Teams can be formed independently, and we will
+                      finalise the team before the event.
                     </p>
                   </dd>
                 </div>
@@ -268,7 +239,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-applications-2"
                     >
-                      What if I am not a student?
+                      What are the registration costs?
                     </button>
                   </dt>
                   <dd>
@@ -277,36 +248,7 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-applications-2"
                     >
-                      As long as you graduated no longer than a year ago, you
-                      can still be accepted as a hacker. Nevertheless, if that
-                      isn't your case and you don't want to miss HackUPC, you
-                      can apply as a mentor!
-                    </p>
-                  </dd>
-                </div>
-                <div className="faq__question">
-                  <dt>
-                    <button
-                      className="faq__title"
-                      type="button"
-                      aria-expanded="false"
-                      aria-controls="faq-applications-3"
-                    >
-                      How does applying in teams work?
-                    </button>
-                  </dt>
-                  <dd>
-                    <p
-                      className="faq__answer"
-                      aria-hidden="true"
-                      id="faq-applications-3"
-                    >
-                      When you apply, you can create or join a team and you're
-                      able to change that until you are accepted. <br />
-                      When more than 50% of the team members are accepted, the
-                      remaining ones are automatically accepted. <br />
-                      Note that teams created in the registration are not
-                      definitive, so you change your team during the hackathon.
+                      The registration fee is Rs 250 per person.
                     </p>
                   </dd>
                 </div>
@@ -323,7 +265,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-teams-0"
                     >
-                      What if I don't have coding experience?
+                      What if I don't have any experience in coding and IOT?
                     </button>
                   </dt>
                   <dd>
@@ -332,9 +274,9 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-teams-0"
                     >
-                      It's completely fine! In fact, you come here to learn, so
-                      you don't need any previous experience. We would love to
-                      receive your application!
+                      It's perfectly fine! In fact, you've come here to learn,
+                      so no prior experience is required. We will assign mentors
+                      to you who will constantly guide you throughout the event.
                     </p>
                   </dd>
                 </div>
@@ -355,10 +297,11 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-teams-1"
                     >
-                      No need to worry! Part of the fun of a hackathon is
-                      meeting new people. We will have a team building activity
-                      at the beginning of the event for everyone to meet and
-                      form teams.
+                      There's no need to be concerned! Meeting new people is
+                      part of the fun of a hackathon. At the start of the event,
+                      we will have a team building activity for everyone to meet
+                      and form teams. We also have a Discord server where people
+                      looking for teammates can connect.
                     </p>
                   </dd>
                 </div>
@@ -370,7 +313,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="faq-teams-2"
                     >
-                      What is the max team size?
+                      What is MAX(team_size)?
                     </button>
                   </dt>
                   <dd>
@@ -379,35 +322,8 @@ const Faq = () => {
                       aria-hidden="true"
                       id="faq-teams-2"
                     >
-                      If <code>myTeam.length &lt;= 4</code>, you're good to go.{" "}
-                      <br />
-                      Teams up to 4 members are welcome. Have in mind that if
-                      your team is bigger, you won't be able to participate in
-                      any HackUPC competition or challenge.
-                    </p>
-                  </dd>
-                </div>
-                <div className="faq__question">
-                  <dt>
-                    <button
-                      className="faq__title"
-                      type="button"
-                      aria-expanded="false"
-                      aria-controls="faq-teams-3"
-                    >
-                      Can I change my team during the hackathon? How?
-                    </button>
-                  </dt>
-                  <dd>
-                    <p
-                      className="faq__answer"
-                      aria-hidden="true"
-                      id="faq-teams-3"
-                    >
-                      Yes, in fact, we encourage you to team up with hackers you
-                      meet there. You'll meet awesome people! <br />
-                      To change your team you don’t have to notify us, just put
-                      your team members in the final project submission.
+                      If <code>myTeam.length &lt;= 4</code>, then you're good to
+                      go. (Teams up to 4 members are allowed).
                     </p>
                   </dd>
                 </div>
@@ -419,7 +335,7 @@ const Faq = () => {
         <p className="faq__others-answer">
           DM us at if you want to contact us via email, drop us a line at{" "}
           <a
-            href="mailto:iothin.community@gmail.com"
+            href="mailto:iothinc@vit.ac.in"
             className="text-[#da0035] underline underline-offset-2"
           >
             IOTHINC

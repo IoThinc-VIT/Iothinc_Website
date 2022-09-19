@@ -11,11 +11,10 @@ const Live = () => {
         </h2>
         <p className="text-[1.125rem] leading-8 mb-[2.5rem]">
           <strong>When and where will everything happen?</strong> <br />
-          Check out our real-time agenda to find it out! It will be available
-          during IoThon.
+          The Speaker session will be live. We will update the timings later.
         </p>
         <a
-          href="https://www.iothincvit.in/"
+          href="https://www.youtube.com/channel/UCr0gmDHLFsec0nS2lQp69eg"
           target="_blank"
           rel="noopener noreferrer"
           className=""
