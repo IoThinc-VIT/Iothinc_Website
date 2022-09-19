@@ -10,8 +10,10 @@ const Live = () => {
           <span className="live__dot"></span>Live
         </h2>
         <p className="text-[1.125rem] leading-8 mb-[2.5rem]">
-          <strong>When and where will everything happen?</strong> <br />
-          The Speaker session will be live. We will update the timings later.
+          
+   <strong> I'm not attending the event; can I still attend the speaker sessions?</strong> <br />
+
+The Speaker session will be streamed live. We will update the schedule soon.
         </p>
         <a
           href="https://www.youtube.com/channel/UCr0gmDHLFsec0nS2lQp69eg"
