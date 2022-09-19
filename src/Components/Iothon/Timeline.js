@@ -13,8 +13,8 @@ const Timeline = () => {
                 <h1 className="timeline_title">Ideation Round</h1>
                 <p className="timeline_msg">
                   {" "}
-                  We officially inaugurate our club’s grandest hackathon to the
-                  students.
+                  This is the first round, where all the innovative ideas will
+                  be put forward by the participants.
                 </p>
               </div>
               <div className="timeline_time">
@@ -37,8 +37,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Lunch Break</h1>
                 <p className="timeline_msg">
-                  Attendance for the event is taken and a fun activity is
-                  conducted to welcome and warm-up the contestants.
+                  The participants can take a break from the tiring round that
+                  had taken place earlier.
                 </p>
               </div>
               <div
@@ -57,9 +57,9 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review 1</h1>
                 <p className="timeline_msg">
-                  We are extremely lucky to be in the presence of Mr./Mrs./Ms.
-                  XYZ, who will share his/her’s own experience on hackathons and
-                  how our country is developing technologically.
+                  The first review will be conducted now, wherein the idea and
+                  part of the implementation will be evaluated. A speaker
+                  session is also conducted!
                 </p>
               </div>
               <div
@@ -89,7 +89,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Dinner Break</h1>
                 <p className="timeline_msg">
-                  The first round of the event officially begins from now.
+                  A dinner break is much needed after a tiring review and
+                  speaker session.
                 </p>
               </div>
               <div
@@ -105,8 +106,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review 2</h1>
                 <p className="timeline_msg">
-                  Results of Review-1 will be announced, and the selected
-                  participants are given a brief walk-through of the next round.
+                  The second review is conducted, where more sections of
+                  implementations are evaluated. This is the crux of our event.
                 </p>
               </div>
               <div
@@ -129,8 +130,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Break</h1>
                 <p className="timeline_msg">
-                  A fun, encouraging community event is hosted in the meantime,
-                  to lift the spirits of the participants.
+                  A well-deserved break is allotted in which the participants
+                  can have refreshments/lunch.
                 </p>
               </div>
               <div
@@ -146,8 +147,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review 3</h1>
                 <p className="timeline_msg">
-                  The second round of the event officially begins. Only the
-                  qualified participants from Review-1 can participate.
+                  The third review is conducted, where more sections are
+                  evaluated. We’ll be having another guest speaker session.
                 </p>
               </div>
               <div
@@ -169,8 +170,9 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Final Presentation</h1>
                 <p className="timeline_msg">
-                  Results of Review-2 will be announced, and the selected
-                  participants are given a brief walk-through of the next round.
+                  The final review/presentation is conducted, followed by the
+                  result announcement. The winners are announced and the prizes
+                  distributed. This concludes our event.
                 </p>
               </div>
               <div
