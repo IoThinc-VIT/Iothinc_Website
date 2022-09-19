@@ -13,8 +13,9 @@ import Queries from "./Pages/Queries";
 import NavBar from "./Components/NavBar";
 
 import background from "./Images/Background.svg";
+import Iothon from "./Components/Iothon/Iothon";
 
-function App() {
+const OfficialApp = () => {
   return (
     <div
       className="app"
@@ -43,6 +44,15 @@ function App() {
         <Queries />
       </Element>
     </div>
+  );
+};
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<OfficialApp />} />
+      <Route path="/iothon" element={<Iothon />} />
+    </Routes>
   );
 }
 

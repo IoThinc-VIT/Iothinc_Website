@@ -1,0 +1,53 @@
+.section--about-us {
+  color: white;
+  background-color: white;
+
+  p{
+    line-height: 1.6667;
+    margin-bottom: 1rem;
+  }
+
+  .btn{
+    margin: 0;
+  }
+}
+
+.about-us__subtitle {
+  margin: 3rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+@media only screen and (max-width: 27.5rem) {
+  .section--about-us .section__title {
+    color: white;
+    font-size: calc(1rem + 4vw);
+  }
+
+  .about-us__subtitle {
+    font-size: 1.125rem;
+  }
+}
+
+.about-us__layout {
+  display: grid;
+  margin-top: 2rem;
+  gap: 2rem;
+  grid-template: auto / auto auto;
+  place-content: center;
+  place-items: center;
+
+  > img,
+  > svg {
+    width: 15rem;
+  }
+}
+@media only screen and (max-width: 48rem) {
+  .about-us__layout {
+    grid-template: auto auto / auto;
+  }
+}
+
+.card--about-us {
+  padding: 2rem;
+  background-color: #272f44;
+}

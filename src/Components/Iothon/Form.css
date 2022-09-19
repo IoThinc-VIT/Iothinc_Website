@@ -1,0 +1,8 @@
+.section-form-container {
+  padding: 1.5rem;
+  background-color: #272f44;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
