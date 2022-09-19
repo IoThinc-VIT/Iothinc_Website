@@ -58,9 +58,7 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review 1</h1>
                 <p className="timeline_msg">
-                  The first review will be conducted now, wherein the idea and
-                  part of the implementation will be evaluated. A speaker
-                  session is also conducted!
+                  We will have an initial review during this time, as well as a speaker session during which our industry experts in the fields of electronics and IoT will enlighten you with their knowledge.
                 </p>
               </div>
               <div
@@ -90,8 +88,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Dinner Break</h1>
                 <p className="timeline_msg">
-                  A dinner break is much needed after a tiring review and
-                  speaker session.
+                  Pump yourself up with caffeine and return to the venue for an all-nighter. 
+                    Don't worry, we'll provide energy drinks to keep you energised and hydrated.
                 </p>
               </div>
               <div
@@ -107,8 +105,7 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review 2</h1>
                 <p className="timeline_msg">
-                  The second review is conducted, where more sections of
-                  implementations are evaluated. This is the crux of our event.
+                 A second review would be conducted during this phase to assess the progress of your project and how well you have implemented your ideas.
                 </p>
               </div>
               <div
@@ -131,8 +128,7 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Break</h1>
                 <p className="timeline_msg">
-                  A well-deserved break is allotted in which the participants
-                  can have refreshments/lunch.
+                  Go out to lunch with your friends and return after a filling meal. The real fight for victory begins now.
                 </p>
               </div>
               <div
@@ -148,8 +144,7 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Review 3</h1>
                 <p className="timeline_msg">
-                  The third review is conducted, where more sections are
-                  evaluated. We’ll be having another guest speaker session.
+                  This is the event's final stage, and you must complete the full implementation of your project by 6 p.m.
                 </p>
               </div>
               <div
@@ -171,9 +166,7 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Final Presentation</h1>
                 <p className="timeline_msg">
-                  The final review/presentation is conducted, followed by the
-                  result announcement. The winners are announced and the prizes
-                  distributed. This concludes our event.
+                  This is your final presentation of your prototype project in front of industry experts, who will evaluate your project based on some metrics and determine who will take home the victory!
                 </p>
               </div>
               <div
