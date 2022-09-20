@@ -56,9 +56,12 @@ const Timeline = () => {
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Review 1</h1>
+                <h1 className="timeline_title">Phase 1</h1>
                 <p className="timeline_msg">
-                  We will have an initial review during this time, as well as a speaker session during which our industry experts in the fields of electronics and IoT will enlighten you with their knowledge.
+                  We will have an initial Phase during this time, as well as a
+                  speaker session during which our industry experts in the
+                  fields of electronics and IoT will enlighten you with their
+                  knowledge.
                 </p>
               </div>
               <div
@@ -88,8 +91,9 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Dinner Break</h1>
                 <p className="timeline_msg">
-                  Pump yourself up with caffeine and return to the venue for an all-nighter. 
-                    Don't worry, we'll provide energy drinks to keep you energised and hydrated.
+                  Pump yourself up with caffeine and return to the venue for an
+                  all-nighter. Don't worry, we'll provide energy drinks to keep
+                  you energised and hydrated.
                 </p>
               </div>
               <div
@@ -103,9 +107,11 @@ const Timeline = () => {
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Review 2</h1>
+                <h1 className="timeline_title">Phase 2</h1>
                 <p className="timeline_msg">
-                 A second review would be conducted during this phase to assess the progress of your project and how well you have implemented your ideas.
+                  A second Phase would be conducted during this phase to assess
+                  the progress of your project and how well you have implemented
+                  your ideas.
                 </p>
               </div>
               <div
@@ -128,7 +134,8 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Break</h1>
                 <p className="timeline_msg">
-                  Go out to lunch with your friends and return after a filling meal. The real fight for victory begins now.
+                  Go out to lunch with your friends and return after a filling
+                  meal. The real fight for victory begins now.
                 </p>
               </div>
               <div
@@ -142,9 +149,10 @@ const Timeline = () => {
           <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Review 3</h1>
+                <h1 className="timeline_title">Phase 3</h1>
                 <p className="timeline_msg">
-                  This is the event's final stage, and you must complete the full implementation of your project by 6 p.m.
+                  This is the event's final stage, and you must complete the
+                  full implementation of your project by 6 p.m.
                 </p>
               </div>
               <div
@@ -166,7 +174,10 @@ const Timeline = () => {
               <div className="timeline_desc">
                 <h1 className="timeline_title">Final Presentation</h1>
                 <p className="timeline_msg">
-                  This is your final presentation of your prototype project in front of industry experts, who will evaluate your project based on some metrics and determine who will take home the victory!
+                  This is your final presentation of your prototype project in
+                  front of industry experts, who will evaluate your project
+                  based on some metrics and determine who will take home the
+                  victory!
                 </p>
               </div>
               <div
@@ -180,7 +191,7 @@ const Timeline = () => {
           {/* <li className="timeline_item timeline_right">
             <div className="timeline_info">
               <div className="timeline_desc">
-                <h1 className="timeline_title">Review-3</h1>
+                <h1 className="timeline_title">Phase-3</h1>
                 <p className="timeline_msg">
                   The third and final round begins, where the top 15
                   participants from the previous round can participate.
