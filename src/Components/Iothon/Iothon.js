@@ -12,7 +12,7 @@ import Timeline from "./Timeline";
 import Sponsor from "./Sponsor";
 import Iothinc from "./Iothinc";
 import Footer from "./Footer";
-
+import Tracks from "./Tracks";
 import Sample from "./Sample";
 import Form from "./Form";
 
@@ -23,6 +23,7 @@ const Iothon = () => {
       <Header />
       <main>
         <About />
+        <Tracks />
         <Features />
         <HowTo />
         {/* <Form /> */}
