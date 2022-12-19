@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Board.css"
 import TileComponent from "../Components/TileComponent";
 
 import FacultyCoordinator from "./../Images/Prof.jpg";
@@ -28,14 +28,14 @@ const Board = () => {
         </div>
         <div className="flex flex-col md:gap-5 font-jost">
           <center>
-            <div className="md:flex justify-center items-center md:flex">
+          <div className="md:flex justify-center items-center md:flex">
               <TileComponent
                 img={FacultyCoordinator}
                 svgFill="#8E8ED6"
                 designation="Faculty Coordinator"
                 name="Prof. Sujatha R"
                 insta=""
-                linkedin="https://www.linkedin.com/in/sujatha-rajkumar-840914164"
+                linkedin="https://www.linkedin.com/in/dr-sujatha-rajkumar-840914164"
               />
               <TileComponent
                 img={Chairperson}
@@ -54,9 +54,10 @@ const Board = () => {
                 insta="https://www.instagram.com/aditya.choudhary.11/?hl=en"
                 linkedin="https://www.linkedin.com/in/aditya-choudhary-138a1a122"
               />
+             
             </div>
             <div className="md:flex justify-center items-center">
-              <TileComponent
+            <TileComponent
                 img={Secretary}
                 svgFill="#D6A08E"
                 designation="Secretary"
@@ -64,7 +65,6 @@ const Board = () => {
                 insta="https://www.instagram.com/4th_swastik/?hl=en"
                 linkedin="https://www.linkedin.com/in/swastik0411/"
               />
-
               <TileComponent
                 img={CoSecretary}
                 svgFill="#C8898C"
@@ -82,9 +82,10 @@ const Board = () => {
                 insta="https://www.instagram.com/hemendra__04/?hl=en"
                 linkedin="https://www.linkedin.com/in/hemendrasharma04/"
               />
+              
             </div>
             <div className="md:flex justify-center items-center">
-              <TileComponent
+            <TileComponent
                 img={DesignHead}
                 svgFill="#8E8ED6"
                 designation="Design Head"
@@ -92,7 +93,6 @@ const Board = () => {
                 insta="https://instagram.com/hem.prasath11?igshid=YmMyMTA2M2Y="
                 linkedin="https://www.linkedin.com/in/hem-prasath-k-98528918b/"
               />
-
               <TileComponent
                 img={PublicityHead}
                 svgFill="#8ED6B2"
@@ -110,9 +110,10 @@ const Board = () => {
                 insta="https://www.instagram.com/_.rogueone._/?hl=en"
                 linkedin="https://linkedin.com/in/rohan-pon-surya-murugan-823605209"
               />
+               
             </div>
             <div className="md:flex justify-center items-center">
-              <TileComponent
+            <TileComponent
                 img={ProjectHead}
                 svgFill="#D6A08E"
                 designation="Project Head"
@@ -120,7 +121,6 @@ const Board = () => {
                 insta="https://www.instagram.com/_hari_venkat/?hl=en"
                 linkedin="https://linkedin.com/in/hari-venkatesan-3198b91a3"
               />
-
               <TileComponent
                 img={FinanceHead}
                 svgFill="#D6D68E"

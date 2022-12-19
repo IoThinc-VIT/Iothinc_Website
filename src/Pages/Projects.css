@@ -72,8 +72,9 @@
 }
 @media (max-width: 768px) {
   #card-holder {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 1.5rem;
+    
   }
   .header{
     flex-direction: column;

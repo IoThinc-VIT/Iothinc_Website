@@ -41,9 +41,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full bg-white px-5 py-2">
+    <nav className="fixed w-full px-5 py-2 nav-color" >
       <div className="flex justify-between">
-        <div>
+        <div className="logo-background">
           <Link
             to="Home"
             className="flex items-center px-2 cursor-pointer"
@@ -61,7 +61,7 @@ const Navbar = () => {
             <div
               key={index}
               className={
-                "text-[#202764] text-[16px] lg:text-[18px] leading-[30px] cursor-pointer font-normal"
+                "text-[#FFFFFF] text-[16px] lg:text-[18px] leading-[30px] cursor-pointer font-normal"
               }
             >
               <center>
@@ -80,7 +80,7 @@ const Navbar = () => {
           ))}
           <div
             className={
-              "text-[#202764] text-[18px] leading-[30px] cursor-pointer font-bold"
+              "text-[#FFFFFF] text-[18px] leading-[30px] cursor-pointer font-bold"
             }
           >
             <center>

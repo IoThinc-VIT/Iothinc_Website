@@ -1,18 +1,34 @@
 .card{
-    height: 100%;
+    height: auto;
+    width:400px;
     min-height: 35vh;
-    background-color: #FFF7EC;
+    background-color: white;
     margin: auto;
     margin-left: 1rem;
-    width: 100%;
     border-radius: 10px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
 }
+.card-image
+{
+    overflow: hidden;
+    transition-duration:0.4s;
+    transition-property: all;
+    width:0px;
+    height:0px;
+    opacity: 0;
+}
+.card:hover .card-image
+{
+    width:80%;
+    height:80%;
+    opacity:1;
+   
+}
 
 #card-head{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 

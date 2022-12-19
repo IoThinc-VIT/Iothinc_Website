@@ -18,7 +18,7 @@ const TileComponent = (props) => {
         </div>
       </div>
       <div className="bg-white font-lato flex flex-col justify-center items-center gap-4 p-6 w-80 h-auto rounded-b-lg">
-        <div className="text-3xl text-black font-roboto">
+        <div className="text-2xl text-black font-roboto">
           {props.designation}
         </div>
         <div
