@@ -15,7 +15,10 @@ import NavBar from "./Components/NavBar";
 import background from "./Images/Background.svg";
 import Iothon from "./Components/Iothon/Iothon";
 
+
+
 const OfficialApp = () => {
+
   return (
     <div
       className="app"
@@ -56,7 +59,9 @@ function App() {
   );
 }
 
+//$("#card-holder").owlCarousel();
 export default App;
+
 /*<NavBar />
       <BrowserRouter>
         <Routes>

@@ -7,10 +7,10 @@ import qualityweek from "./../Images/qualityweek.jpeg"
 const Event = () => {
   return (
     <div className="App ">
-      <div className="justify-center pt-5 grid grid-row-2 md:grid-cols-2 ">
+      <div className=" pt-5 grid grid-row-2 md:grid-cols-2 ">
         <div className="md:ml-44">
-          <p className="text-centre md:text-left text-5xl text-white">Events</p>
-          <p className="text-centre md:text-left text-lg text-white">
+          <p className=" md:text-left text-5xl text-white">Events</p>
+          <p className="md:text-left text-lg text-white">
             Don't forget to register on Vtop
           </p>
         </div>
