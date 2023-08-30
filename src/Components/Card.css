@@ -1,9 +1,10 @@
 .card{
     height: auto;
     width:400px;
+    
     min-height: 35vh;
     background-color: white;
-    margin: auto;
+
     margin-left: 1rem;
     border-radius: 10px;
     padding: 1rem;
@@ -59,8 +60,11 @@
 @media(max-width: 768px) {
     .card{
         min-height: 100%;
-        width: 100%;
-        margin-left: 0;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+ 
         margin-bottom: 1rem;
     }
 }

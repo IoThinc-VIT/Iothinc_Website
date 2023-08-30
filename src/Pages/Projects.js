@@ -11,15 +11,24 @@ import obsrobot from "../Images/obsrobot.jpg"
 
 const Projects = () => {
   return (
-    <div className="container-projects mt-5">
-      <div className="header1 mb-3">
-        <div id="head">
-          <h1 id="project-heading">Projects & Blogs</h1>
-          <p id="content"> Know what we do as a club</p>
+    <div className="App ">
+            <div className=" pt-5 grid grid-row-2 md:grid-cols-2 ">
+        <div className="md:ml-44">
+          <p className=" md:text-left text-5xl text-white">Projects & Blogs</p>
+          <p className="md:text-left text-lg text-white">
+          Know what we do as a club
+          </p>
         </div>
       </div>
-      <div id="card-holder" className="flex flex-col">
-        <div className="md:flex justify-center items-center md:flex">
+  
+
+
+
+
+
+
+    
+        <div className="flex flex-col mt-2 md:flex-row  place-content-center ">
       <Card
           title={"Smart Glove for Paralysis Patients"}
           image={robothand}
@@ -50,7 +59,7 @@ const Projects = () => {
           
         />
         </div> 
-        <div className="md:flex justify-center items-center md:flex pt-5">
+        <div className="flex flex-col mt-2 md:flex-row  place-content-center ">
         <Card
           title={"Supplychain QC"}
           content={
@@ -77,7 +86,7 @@ const Projects = () => {
         />
         </div>    
       </div>
-    </div>
+     
   );
 };
 
