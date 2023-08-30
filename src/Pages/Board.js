@@ -3,16 +3,16 @@ import "./Board.css"
 import TileComponent from "../Components/TileComponent";
 
 import FacultyCoordinator from "./../Images/Prof.jpg";
-import Chairperson from "./../Images/Aravindaan s.jpg";
-import CoSecretary from "./../Images/vishwa shah.jpg";
-import DesignHead from "./../Images/hem prasath.jpg";
-import FinanceHead from "./../Images/vikram adhitya.jpg";
-import ManagementHead from "./../Images/rohan pon.jpg";
-import ProjectHead from "./../Images/hari v.jpg";
-import PublicityHead from "./../Images/mehul rana.jpg";
-import Secretary from "./../Images/swastik shukla.jpg";
-import TechnicalHead from "./../Images/hemendra sharma.jpg";
-import ViceChairperson from "./../Images/Adita choudhary.jpg";
+import Chairperson from "./../Images/arnav.jpg";
+import CoSecretary from "./../Images/ashutosh.jpg";
+import DesignHead from "./../Images/chibhi.jpg";
+import HR from "./../Images/shreya.jpg";
+import ManagementHead from "./../Images/akshat.jpg";
+import ProjectHead from "./../Images/samriddhi.jpg";
+import PublicityHead from "./../Images/anushree.jpg";
+import Secretary from "./../Images/prakruthi.jpg";
+import TechnicalHead from "./../Images/aditya.jpg";
+import ViceChairperson from "./../Images/aaron.jpg";
 
 const Board = () => {
   return (
@@ -122,7 +122,7 @@ const Board = () => {
                 linkedin="https://linkedin.com/in/hari-venkatesan-3198b91a3"
               />
               <TileComponent
-                img={FinanceHead}
+                img={HR}
                 svgFill="#D6D68E"
                 designation="Finance Head"
                 name="Vikram Aditya"
